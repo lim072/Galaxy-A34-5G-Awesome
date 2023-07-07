@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #222;
+}
+main {
+  position: fixed;
+  width: 100vw;
+  z-index: -1;
+  opacity: 0.8;
+
+  video {
+    width: 100vw;
+  }
+}
