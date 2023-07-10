@@ -70,6 +70,7 @@ header {
       background-color: #0c4da2;
       transition: background-color 0.5s;
       overflow: hidden;
+
       a {
         display: block;
         width: 250px;
@@ -85,16 +86,18 @@ header {
         a {
           color: #0c4da2;
         }
+
         div {
           left: 210px;
         }
       }
+
       div {
         position: relative;
-        left: -170px;
-        width: 250px;
+        left: -190px;
+        width: 300px;
         height: 40px;
-        background: linear-gradient(rgb(252, 252, 201), rgb(236, 179, 234));
+        background: linear-gradient(rgb(255, 255, 255), rgb(252, 252, 217), rgb(243, 215, 242), rgb(255, 255, 255));
         transform: rotate(45deg);
         transition: 0.5s;
         box-shadow: 1px 1px 20px 20px #fff;
