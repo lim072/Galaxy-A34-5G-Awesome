@@ -8,16 +8,10 @@ let close = document.querySelectorAll(".close");
 close.forEach((el, index) => {
     el.addEventListener("click", (e) => {
         AwesomePop[index].classList.remove("on")
-
     })
-
 })
-console.log(close)
-
-
 
 AwesomeImg.forEach((el, index) => {
-
     for (let el of AwesomePop) {
         AwesomePop[index].classList.remove("on")
     }

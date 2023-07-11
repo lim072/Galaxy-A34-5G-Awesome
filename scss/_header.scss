@@ -14,14 +14,16 @@ header {
 
     h1 {
       width: 150px;
+      height: 100%;
       margin-left: 20px;
+      margin-top: 15px;
 
       a {
         position: relative;
 
         img {
-          width: 60px;
-          position: relative;
+          width: 100px;
+          margin-bottom: 10px;
         }
       }
 
