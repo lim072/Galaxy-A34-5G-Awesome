@@ -27,13 +27,13 @@
       display: grid;
       width: 100%;
       padding: 20px;
-      grid-template-rows: 300px 300px 300px 500px 300px 450px;
+      grid-template-rows: 300px 300px 300px 500px 300px;
       grid-template-columns: repeat(8, 1fr);
 
       .content {
         margin: 20px;
         background-color: #999;
-
+        overflow: hidden;
         border-radius: 20px;
         background-color: #000;
       }
@@ -45,6 +45,7 @@
         grid-column-end: 5;
         overflow: hidden;
         text-align: center;
+        padding: 10px;
 
         img {
           width: 70%;
@@ -56,7 +57,7 @@
           -webkit-background-clip: text;
           color: transparent;
           font: bold 25px/1 "맑은 고딕";
-          margin-bottom: 10px;
+          margin-bottom: 15px;
         }
       }
 
@@ -70,11 +71,22 @@
         }
         span {
           display: block;
+          width: 60%;
+          height: 50%;
           background: linear-gradient(#fff, #9cc2d1);
           background-clip: text;
           -webkit-background-clip: text;
           color: transparent;
           font: bold 25px/1.5 "맑은 고딕";
+          padding: 40px;
+        }
+        a {
+          display: block;
+          background: linear-gradient(#fff, #9cc2d1);
+          background-clip: text;
+          -webkit-background-clip: text;
+          color: transparent;
+          font: bold 16px/1.5 "맑은 고딕";
           padding: 40px;
         }
       }
@@ -87,11 +99,22 @@
         }
         span {
           display: block;
+          width: 60%;
+          height: 50%;
           background: linear-gradient(#fff, #9cc2d1);
           background-clip: text;
           -webkit-background-clip: text;
           color: transparent;
           font: bold 25px/1.5 "맑은 고딕";
+          padding: 40px;
+        }
+        a {
+          display: block;
+          background: linear-gradient(#fff, #9cc2d1);
+          background-clip: text;
+          -webkit-background-clip: text;
+          color: transparent;
+          font: bold 16px/1.5 "맑은 고딕";
           padding: 40px;
         }
       }
@@ -112,6 +135,16 @@
           color: #eee;
           z-index: 1;
         }
+        a {
+          display: block;
+          width: 100%;
+          text-align: center;
+          position: absolute;
+          top: 200px;
+          font: bold 16px/1.5 "맑은 고딕";
+          color: #eee;
+          z-index: 1;
+        }
         video {
           width: 135%;
           position: absolute;
@@ -124,37 +157,236 @@
         grid-column-end: 9;
         span {
           display: block;
+          width: 100%;
+          height: 80%;
           background: linear-gradient(#fff, #9cc2d1);
           background-clip: text;
           -webkit-background-clip: text;
           color: transparent;
-          font: bold 35px/1.5 "맑은 고딕";
-          padding: 40px;
+          font: bold 30px/1.5 "맑은 고딕";
+          text-align: left;
+          padding: 20px ;
+        }
+        a {
+          display: block;
+          background: linear-gradient(#fff, #9cc2d1);
+          background-clip: text;
+          -webkit-background-clip: text;
+          color: transparent;
+          font: bold 16px/1.5 "맑은 고딕";
+          text-align: center;
         }
       }
 
       .con6 {
         grid-column-start: 1;
         grid-column-end: 4;
+        overflow: hidden;
+        text-align: center;
+        padding: 10px;
+        position: relative;
+        img {
+          position: absolute;
+          width: 70%;
+          bottom:  0px;
+          transform: translateX(-50%);
+
+        }
+        span {
+          display: block;
+          width: 100%;
+          height: 5%;
+          background: linear-gradient(#fff, #9cc2d1);
+          background-clip: text;
+          -webkit-background-clip: text;
+          color: transparent;
+          font: bold 25px/1.5 "맑은 고딕";
+          padding: 40px;
+        }
+        a {
+          display: block;
+          background: linear-gradient(#fff, #9cc2d1);
+          background-clip: text;
+          -webkit-background-clip: text;
+          color: transparent;
+          font: bold 16px/1.5 "맑은 고딕";
+        }
       }
 
       .con7 {
+        grid-row-start: 4;
+        grid-row-end: 6;
         grid-column-start: 4;
         grid-column-end: 9;
+        overflow: hidden;
+        position: relative;
+
+        img {
+          width: 100%
+        }
+        >span {
+          &:nth-of-type(1){
+          display: block;
+
+          width: 90%;
+          height: 40px;
+          border-radius: 25px;
+          background-color: rgba($color: #000000, $alpha: 0.5);
+          text-align: center;
+          position: absolute;
+          left: 50%;
+          transform: translateX(-50%);
+          top: 40px;
+          font: bold 25px/40px "맑은 고딕";
+          color: #fff;
+          z-index: 1;
+
+          }
+          &:nth-of-type(2){
+            display: block;
+            width: 50%;
+            height: 30px;
+            border-radius: 15px;
+            background-color: rgba($color: #000000, $alpha: 0.5);
+            margin: 0 auto;
+            text-align: center;
+            position: absolute;
+            top: 100px;
+            left: 50%;
+            transform: translateX(-50%);
+            font: 16px/30px "맑은 고딕";
+            color: #fff;
+            z-index: 1;
+            
+          }
+         
+        }
+        div{
+          width: 100%;
+          height: 30px;
+          position: absolute;
+          left: 50%;
+          transform: translateX(-50%);
+          bottom: 50px;
+          display: flex;
+          justify-content: space-around;
+          span {
+            
+            &:nth-of-type(1){
+            width: 30%;
+            height: 30px;
+            border-radius: 15px;
+            background-color: rgba($color: #000000, $alpha: 0.5);
+            text-align: center;
+            font: 16px/30px "맑은 고딕";
+            color: #fff;
+            }
+            &:nth-of-type(2){
+              width: 30%;
+              height: 30px;
+              border-radius: 15px;
+              background-color: rgba($color: #000000, $alpha: 0.5);
+              text-align: center;
+              font: 16px/30px "맑은 고딕";
+              color: #fff;
+            }
+          } 
+        }
       }
       .con8 {
         grid-column-start: 1;
-        grid-column-end: 5;
-      }
-      .con9 {
-        grid-column-start: 5;
-        grid-column-end: 9;
-        grid-row-start: 5;
-        grid-row-end: 7;
-      }
-      .con10 {
-        grid-column-start: 1;
-        grid-column-end: 5;
+        grid-column-end: 4;
+        position: relative;
+        overflow: hidden;
+        position: relative;
+        img {
+          position: absolute;
+          left: 100px;
+          bottom: -330px;
+          width: 400px
+        }
+        >span {
+          display: block;
+          width: 100%;
+          background: linear-gradient(#fff, #9cc2d1);
+          background-clip: text;
+          -webkit-background-clip: text;
+          color: transparent;
+          text-align: center;
+          font: bold 20px/1.5 "맑은 고딕";
+          margin-top: 20px;
+        }
+        .cameraCon{
+          width: 100%;
+          height: 100%;
+          position: absolute;
+
+          span{
+            display: block;
+            font: 12px/1.2 '맑은 고딕';
+            color: #fff;
+            position: absolute;
+            width: 80px;
+            height: 30px;
+
+            &:nth-of-type(1){
+              right: 20px;
+              top: 10px;
+              &::before{
+                display: block;
+                content: '';
+                width: 1px;
+                height: 30px;
+                background-color: #fff;
+                position: absolute;
+                right: 10px;
+                bottom: -35px;
+              }
+            }
+            &:nth-of-type(2){
+              left: 20px;
+              top: 80px;
+              &::before{
+                display: block;
+                content: '';
+                width: 50px;
+                height: 1px;
+                background-color: #fff;
+                position: absolute;
+                right: -50px;
+                bottom: 10px;
+              }
+            }
+            &:nth-of-type(3){
+              left: 20px;
+              top: 120px;
+              &::before{
+                display: block;
+                content: '';
+                width: 50px;
+                height: 1px;
+                background-color: #fff;
+                position: absolute;
+                right: -50px;
+                bottom: 10px;
+              }
+            }
+            &:nth-of-type(4){
+              left: 20px;
+              top: 160px;
+              &::before{
+                display: block;
+                content: '';
+                width: 50px;
+                height: 1px;
+                background-color: #fff;
+                position: absolute;
+                right: -50px;
+                bottom: 10px;
+              }
+            }
+          }
+        }
       }
     }
   }
