@@ -39,79 +39,15 @@ body {
 
 main {
   width: 100%;
+  margin-bottom: 100px;
 }
-main .frame {
-  width: 400%;
-  display: flex;
+main .frame section {
+  position: absolute;
+  opacity: 0;
+  transition: 0.2s;
 }
-main .frame section .inner nav {
-  float: right;
-  margin-bottom: 50px;
-}
-main .frame section .inner nav ul {
-  display: flex;
-}
-main .frame section .inner nav ul li {
-  width: 50px;
-  margin-right: 20px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-main .frame section .inner nav ul li.on .clip {
-  border: 2px solid #fff;
-}
-main .frame section .inner nav ul li.on span {
-  font: bold 17px/1 "arial";
-}
-main .frame section .inner nav ul li:hover .clip {
-  border: 2px solid #fff;
-}
-main .frame section .inner nav ul li .clip {
-  width: 20px;
-  height: 20px;
-  border-radius: 10px;
-  margin-bottom: 10px;
-  cursor: pointer;
-}
-main .frame section .inner nav ul li span {
-  font: 12px/1 "arial";
-}
-main .frame section .inner nav ul li:nth-of-type(1) .clip {
-  background: linear-gradient(#fff, #9cc2d1);
-}
-main .frame section .inner nav ul li:nth-of-type(1) span {
-  background: linear-gradient(#fff, #9cc2d1);
-  background-clip: text;
-  -webkit-background-clip: text;
-  color: transparent;
-}
-main .frame section .inner nav ul li:nth-of-type(2) .clip {
-  background: linear-gradient(#e8ff96, #abf0a9);
-}
-main .frame section .inner nav ul li:nth-of-type(2) span {
-  background: linear-gradient(#e8ff96, #abf0a9);
-  background-clip: text;
-  -webkit-background-clip: text;
-  color: transparent;
-}
-main .frame section .inner nav ul li:nth-of-type(3) .clip {
-  background: linear-gradient(#fcd6fd, #b09df7);
-}
-main .frame section .inner nav ul li:nth-of-type(3) span {
-  background: linear-gradient(#fcd6fd, #b09df7);
-  background-clip: text;
-  -webkit-background-clip: text;
-  color: transparent;
-}
-main .frame section .inner nav ul li:nth-of-type(4) .clip {
-  background: linear-gradient(#d8d8d8, #5b5c5c);
-}
-main .frame section .inner nav ul li:nth-of-type(4) span {
-  background: linear-gradient(#d8d8d8, #5b5c5c);
-  background-clip: text;
-  -webkit-background-clip: text;
-  color: transparent;
+main .frame section.on {
+  opacity: 1;
 }
 
 header {
@@ -205,6 +141,77 @@ header .inner .buy div {
   transform: rotate(45deg);
   transition: 0.5s;
   box-shadow: 1px 1px 20px 20px #fff;
+}
+header .btns {
+  width: 300px;
+  float: right;
+  background-color: rgba(34, 34, 34, 0.8);
+}
+header .btns ul {
+  display: flex;
+  justify-content: center;
+}
+header .btns ul .btn {
+  width: 50px;
+  margin-right: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+header .btns ul .btn.on .clip {
+  border: 2px solid #fff;
+}
+header .btns ul .btn.on span {
+  font: bold 17px/1 "arial";
+}
+header .btns ul .btn:hover .clip {
+  border: 2px solid #fff;
+}
+header .btns ul .btn .clip {
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+header .btns ul .btn span {
+  font: 12px/1 "arial";
+}
+header .btns ul .btn:nth-of-type(1) .clip {
+  background: linear-gradient(#fff, #9cc2d1);
+}
+header .btns ul .btn:nth-of-type(1) span {
+  background: linear-gradient(#fff, #9cc2d1);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+header .btns ul .btn:nth-of-type(2) .clip {
+  background: linear-gradient(#e8ff96, #abf0a9);
+}
+header .btns ul .btn:nth-of-type(2) span {
+  background: linear-gradient(#e8ff96, #abf0a9);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+header .btns ul .btn:nth-of-type(3) .clip {
+  background: linear-gradient(#fcd6fd, #b09df7);
+}
+header .btns ul .btn:nth-of-type(3) span {
+  background: linear-gradient(#fcd6fd, #b09df7);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+header .btns ul .btn:nth-of-type(4) .clip {
+  background: linear-gradient(#d8d8d8, #5b5c5c);
+}
+header .btns ul .btn:nth-of-type(4) span {
+  background: linear-gradient(#d8d8d8, #5b5c5c);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
 }
 
 #visual {
