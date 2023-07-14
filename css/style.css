@@ -1931,17 +1931,17 @@ header .btns ul .btn:nth-of-type(4) span {
 }
 #contentMore article .inner h3 {
   font: bold 25px/1 "맑은 고딕";
-  margin: 50px;
+  margin: 30px;
 }
 #contentMore article .inner p {
-  font: 12px/1.2 "맑은 고딕";
+  font: 11px/1.2 "맑은 고딕";
   letter-spacing: -1px;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 
 #display .morePhoto {
   display: flex;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
   justify-content: space-around;
 }
 #display .morePhoto div {
@@ -1954,6 +1954,65 @@ header .btns ul .btn:nth-of-type(4) span {
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+#Octa-Core .morePhoto {
+  margin-bottom: 30px;
+}
+#Octa-Core .morePhoto div {
+  margin: 0 auto;
+  border-radius: 20px;
+  max-width: 1000px;
+  height: 500px;
+  overflow: hidden;
+}
+#Octa-Core .morePhoto div img {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+}
+
+.morePhoto {
+  margin-bottom: 30px;
+}
+.morePhoto div {
+  margin: 0 auto;
+  border-radius: 20px;
+  max-width: 1000px;
+  height: 500px;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+.morePhoto div video {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+}
+.morePhoto p {
+  margin: 0 auto;
+  max-width: 1000px;
+  height: 50px;
+  text-align: right;
+}
+.morePhoto p img {
+  position: relative;
+  top: 4px;
+  width: 35px;
+}
+.morePhoto p span {
+  font: bold 30px/1 "맑은 고딕";
+}
+
+.moreCon {
+  margin-bottom: 30px;
+}
+.moreCon div {
+  margin: 0 auto;
+  border-radius: 20px;
+  max-width: 1000px;
+  height: 500px;
+  overflow: hidden;
+  margin-bottom: 20px;
 }
 
 /*# sourceMappingURL=style.css.map */
