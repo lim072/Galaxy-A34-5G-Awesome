@@ -39,6 +39,7 @@ body {
 
 main {
   width: 100%;
+  min-height: 220vh;
   margin-bottom: 100px;
 }
 main .frame section {
@@ -1911,6 +1912,48 @@ header .btns ul .btn:nth-of-type(4) span {
   position: absolute;
   right: -50px;
   bottom: 10px;
+}
+
+#contentMore article {
+  width: 100%;
+  height: 100vh;
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+#contentMore article .inner {
+  padding: 20px;
+  max-width: 1200px;
+  height: 100%;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #222;
+}
+#contentMore article .inner h3 {
+  font: bold 25px/1 "맑은 고딕";
+  margin: 50px;
+}
+#contentMore article .inner p {
+  font: 12px/1.2 "맑은 고딕";
+  letter-spacing: -1px;
+  margin-bottom: 50px;
+}
+
+#display .morePhoto {
+  display: flex;
+  margin-bottom: 50px;
+  justify-content: space-around;
+}
+#display .morePhoto div {
+  border-radius: 20px;
+  width: 40%;
+  height: 400px;
+  overflow: hidden;
+}
+#display .morePhoto div img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 /*# sourceMappingURL=style.css.map */

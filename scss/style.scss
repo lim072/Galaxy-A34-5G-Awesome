@@ -3,7 +3,10 @@
 @import "common.scss";
 @import "header.scss";
 @import "visual.scss";
-@import "visualConSilver.scss";
-@import "visualConLime.scss";
-@import "visualConViolet.scss";
-@import "visualConGraphite.scss";
+@import "content/visualConSilver";
+@import "content/visualConLime.scss";
+@import "content/visualConViolet.scss";
+@import "content/visualConGraphite.scss";
+
+@import "contentMore/conMoreCommon";
+@import "contentMore/dispaly";
