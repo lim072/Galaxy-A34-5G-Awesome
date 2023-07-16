@@ -1928,10 +1928,11 @@ header .btns ul .btn:nth-of-type(4) span {
   margin: 0 auto;
   text-align: center;
   background-color: #222;
+  border-radius: 20px;
 }
 #contentMore article .inner h3 {
   font: bold 25px/1 "맑은 고딕";
-  margin: 30px;
+  margin: 50px 30px 30px 30px;
 }
 #contentMore article .inner p {
   font: 11px/1.2 "맑은 고딕";
@@ -2018,9 +2019,9 @@ header .btns ul .btn:nth-of-type(4) span {
   position: absolute;
 }
 #battery .moreCon div img:nth-of-type(1) {
-  width: 102%;
+  width: 100%;
   height: 505px;
-  object-fit: fill;
+  object-fit: cover;
 }
 #battery .moreCon div img:nth-of-type(2) {
   position: absolute;
@@ -2136,6 +2137,93 @@ header .btns ul .btn:nth-of-type(4) span {
   width: 100%;
   height: 100%;
   object-fit: fill;
+}
+
+#specification {
+  width: 100%;
+  height: 100%;
+  background-color: #333;
+  color: #fff;
+}
+#specification .inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+#specification .inner h3 {
+  font: bold 25px/1 "맑은 고딕";
+  margin: 100px 30px 30px 30px;
+  width: 100%;
+  text-align: center;
+}
+#specification .inner h4 {
+  font: bold 22px/1.2 "맑은 고딕";
+  width: 100%;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #fff;
+}
+#specification .inner .specTable dl {
+  display: flex;
+  width: 100%;
+  min-height: 20px;
+  padding: 20px;
+  border-bottom: 1px solid #bbb;
+  align-items: center;
+}
+#specification .inner .specTable dl:last-child {
+  border: none;
+}
+#specification .inner .specTable dl dt {
+  padding: 15px;
+  width: 30%;
+  margin-bottom: 20px;
+  font: bold 20px/100% "맑은 고딕";
+}
+#specification .inner .specTable dl dd {
+  width: 80%;
+}
+#specification .inner .specTable dl dd ul {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: first baseline;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+#specification .inner .specTable dl dd ul li {
+  width: 30%;
+  min-height: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+#specification .inner .specTable dl dd ul li strong {
+  width: 80%;
+  font: 15px/1 "맑은 고딕";
+}
+#specification .inner .specTable dl dd ul li p {
+  width: 80%;
+  margin-top: 10px;
+  word-break: break-all;
+  font: 12px/1.2 "맑은 고딕";
+  color: #ddd;
+}
+#specification .inner .specTable dl dd ul li p img {
+  width: 15px;
+}
+
+footer {
+  width: 100%;
+  height: 100%;
+  background-color: #333;
+}
+footer .inner {
+  padding-top: 100px;
+  max-width: 1200px;
+  height: 100%;
+  margin: 0 auto;
+  color: #fff;
 }
 
 /*# sourceMappingURL=style.css.map */
