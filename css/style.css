@@ -416,12 +416,14 @@ header .btns ul .btn:nth-of-type(4) span {
   color: #fff;
   margin-top: 10px;
   font: 12px/1 "arial";
+  white-space: nowrap;
 }
 #visual .txt > span:nth-of-type(2) {
   color: #fff;
   margin-top: 50px;
   margin-bottom: 10px;
   font: 12px/1 "arial";
+  white-space: nowrap;
 }
 
 @keyframes top {
@@ -2322,10 +2324,10 @@ footer .inner .footerCon .sns p i {
 
 #precautions {
   width: 100%;
-  height: 100vh;
   background-color: #333;
   color: #fff;
   padding: 50px;
+  position: relative;
 }
 #precautions .inner {
   position: relative;
@@ -2356,8 +2358,7 @@ footer .inner .footerCon .sns p i {
   color: #fff;
   white-space: nowrap;
 }
-#precautions .inner .tabBox {
-  position: absolute;
+#precautions .inner .tabBoxs .tabBox {
   margin-top: 50px;
   border: 1px solid #fff;
   border-radius: 20px;
@@ -2369,39 +2370,42 @@ footer .inner .footerCon .sns p i {
   display: none;
   transition: 0.5s;
 }
-#precautions .inner .tabBox.on {
+#precautions .inner .tabBoxs .tabBox.on {
   opacity: 1;
   display: block;
 }
-#precautions .inner .tabBox h3 {
+#precautions .inner .tabBoxs .tabBox h3 {
   font: bold 14px/1.5 "맑은 고딕";
   color: #fff;
 }
-#precautions .inner .tabBox p {
+#precautions .inner .tabBoxs .tabBox p {
   width: 100%;
   margin-bottom: 10px;
 }
-#precautions .inner .tabBox:last-child {
-  display: flex;
+#precautions .inner .tabBoxs .tabBox:last-child {
+  display: none;
   justify-content: space-between;
   flex-wrap: wrap;
 }
-#precautions .inner .tabBox:last-child dl {
+#precautions .inner .tabBoxs .tabBox:last-child dl {
   display: flex;
   width: 100%;
   margin: 10px;
   justify-content: space-between;
   flex-wrap: wrap;
 }
-#precautions .inner .tabBox:last-child dl dt {
+#precautions .inner .tabBoxs .tabBox:last-child dl dt {
   width: 40%;
   font: bold 14px/1.5 "맑은 고딕";
   margin-right: 10px;
   color: #fff;
 }
-#precautions .inner .tabBox:last-child dl dd {
+#precautions .inner .tabBoxs .tabBox:last-child dl dd {
   width: 50%;
   word-break: break-all;
+}
+#precautions .inner .tabBoxs .tabBox:last-child.on {
+  display: flex;
 }
 
 #menual {

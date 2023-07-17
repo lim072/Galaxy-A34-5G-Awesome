@@ -100,25 +100,26 @@ header {
         left: -190px;
         width: 300px;
         height: 40px;
-        background: linear-gradient(
-          rgb(255, 255, 255),
-          rgb(252, 252, 217),
-          rgb(243, 215, 242),
-          rgb(255, 255, 255)
-        );
+        background: linear-gradient(rgb(255, 255, 255),
+            rgb(252, 252, 217),
+            rgb(243, 215, 242),
+            rgb(255, 255, 255));
         transform: rotate(45deg);
         transition: 0.5s;
         box-shadow: 1px 1px 20px 20px #fff;
       }
     }
   }
+
   .btns {
     width: 300px;
     float: right;
     background-color: rgba($color: #222222, $alpha: 0.8);
+
     ul {
       display: flex;
       justify-content: center;
+
       .btn {
         width: 50px;
         margin-right: 20px;
