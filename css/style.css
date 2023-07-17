@@ -219,12 +219,13 @@ header .btns ul .btn:nth-of-type(4) span {
   max-width: 1200px;
   height: 100vh;
   margin: 0 auto;
-  padding: 200px 20px 20px 20px;
+  padding: 150px 20px 20px 20px;
 }
 #visual ul {
   display: flex;
   justify-content: space-around;
   transition: 0.5s;
+  align-items: center;
 }
 #visual ul li {
   height: 100%;
@@ -371,10 +372,10 @@ header .btns ul .btn:nth-of-type(4) span {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 50px;
 }
 #visual .txt a {
   position: relative;
-  margin-top: 50px;
   color: #fff;
   font: bold 25px/1 "arial";
 }
@@ -410,6 +411,17 @@ header .btns ul .btn:nth-of-type(4) span {
 #visual .txt a:nth-of-type(2) span::after {
   transform: rotate(-45deg);
   right: 5px;
+}
+#visual .txt > span:nth-of-type(1) {
+  color: #fff;
+  margin-top: 10px;
+  font: 12px/1 "arial";
+}
+#visual .txt > span:nth-of-type(2) {
+  color: #fff;
+  margin-top: 50px;
+  margin-bottom: 10px;
+  font: 12px/1 "arial";
 }
 
 @keyframes top {
@@ -2144,16 +2156,17 @@ header .btns ul .btn:nth-of-type(4) span {
   height: 100%;
   background-color: #333;
   color: #fff;
+  padding-bottom: 100px;
 }
 #specification .inner {
   max-width: 1200px;
   margin: 0 auto;
   padding: 20px;
+  border-bottom: 1px solid #ddd;
 }
 #specification .inner h3 {
   font: bold 25px/1 "맑은 고딕";
   margin: 100px 30px 30px 30px;
-  width: 100%;
   text-align: center;
 }
 #specification .inner h4 {
@@ -2169,6 +2182,7 @@ header .btns ul .btn:nth-of-type(4) span {
   padding: 20px;
   border-bottom: 1px solid #bbb;
   align-items: center;
+  flex-wrap: wrap;
 }
 #specification .inner .specTable dl:last-child {
   border: none;
@@ -2180,7 +2194,7 @@ header .btns ul .btn:nth-of-type(4) span {
   font: bold 20px/100% "맑은 고딕";
 }
 #specification .inner .specTable dl dd {
-  width: 80%;
+  width: 70%;
 }
 #specification .inner .specTable dl dd ul {
   width: 100%;
@@ -2214,12 +2228,13 @@ header .btns ul .btn:nth-of-type(4) span {
 }
 
 footer {
+  border-top: 1px solid #fff;
   width: 100%;
   height: 100%;
   background-color: #333;
 }
 footer .inner {
-  padding-top: 100px;
+  padding-top: 50px;
   max-width: 1200px;
   height: 100%;
   margin: 0 auto;
@@ -2288,11 +2303,14 @@ footer .inner .footerCon .select {
 }
 footer .inner .footerCon .select select {
   display: block;
-  width: 150px;
+  width: 120px;
   height: 30px;
   border-radius: 12px;
   font: 12px/1 "맑은 고딕";
   margin-right: 10px;
+}
+footer .inner .footerCon .sns {
+  padding: 20px;
 }
 footer .inner .footerCon .sns span {
   font: 12px/1 "맑은 고딕";
@@ -2300,6 +2318,201 @@ footer .inner .footerCon .sns span {
 footer .inner .footerCon .sns p i {
   color: #fff;
   font-size: 25px;
+}
+
+#precautions {
+  width: 100%;
+  height: 100vh;
+  background-color: #333;
+  color: #fff;
+  padding: 50px;
+}
+#precautions .inner {
+  position: relative;
+  max-width: 1200px;
+  padding: 20px;
+  margin: 0 auto;
+}
+#precautions .inner h2 {
+  font: bold 25px/1 "맑은 고딕";
+  text-align: center;
+  margin-bottom: 50px;
+}
+#precautions .inner .tab {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: nowrap;
+}
+#precautions .inner .tab li {
+  margin-right: 10px;
+}
+#precautions .inner .tab li.on {
+  border-bottom: 1px solid #fff;
+}
+#precautions .inner .tab li a {
+  font: 12px/1 "맑은 고딕";
+  color: #fff;
+  white-space: nowrap;
+}
+#precautions .inner .tabBox {
+  position: absolute;
+  margin-top: 50px;
+  border: 1px solid #fff;
+  border-radius: 20px;
+  padding: 40px;
+  background-color: #444;
+  font: 12px/1.5 "맑은 고딕";
+  color: #ddd;
+  opacity: 0;
+  display: none;
+  transition: 0.5s;
+}
+#precautions .inner .tabBox.on {
+  opacity: 1;
+  display: block;
+}
+#precautions .inner .tabBox h3 {
+  font: bold 14px/1.5 "맑은 고딕";
+  color: #fff;
+}
+#precautions .inner .tabBox p {
+  width: 100%;
+  margin-bottom: 10px;
+}
+#precautions .inner .tabBox:last-child {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+#precautions .inner .tabBox:last-child dl {
+  display: flex;
+  width: 100%;
+  margin: 10px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+#precautions .inner .tabBox:last-child dl dt {
+  width: 40%;
+  font: bold 14px/1.5 "맑은 고딕";
+  margin-right: 10px;
+  color: #fff;
+}
+#precautions .inner .tabBox:last-child dl dd {
+  width: 50%;
+  word-break: break-all;
+}
+
+#menual {
+  width: 100%;
+  height: 100%;
+  background-color: #333;
+}
+#menual .inner {
+  max-width: 1200px;
+  padding: 20px;
+  margin: 0 auto;
+  color: #fff;
+}
+#menual .inner h2 {
+  font: bold 25px/1 "맑은 고딕";
+  text-align: center;
+  margin-bottom: 50px;
+}
+#menual .inner .menuCon {
+  margin-bottom: 100px;
+}
+#menual .inner .menuCon > li h3 {
+  font: bold 16px/1.5 "맑은 고딕";
+}
+#menual .inner .menuCon > li h3 i {
+  margin-right: 10px;
+}
+#menual .inner .menuCon > li h4 {
+  font: 12px/1 "맑은 고딕";
+}
+#menual .inner .menuCon > li .menuSub {
+  margin: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+#menual .inner .menuCon > li .menuSub > li {
+  border: 1px solid #fff;
+  padding: 10px;
+  width: 250px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  background-color: #444;
+}
+#menual .inner .menuCon > li .menuSub > li h5 {
+  font: 12px/1 "맑은 고딕";
+  margin-bottom: 10px;
+}
+#menual .inner .menuCon > li .menuSub > li > ul {
+  display: flex;
+  margin-bottom: 10px;
+}
+#menual .inner .menuCon > li .menuSub > li > ul h6 {
+  width: 100%;
+  font: 10px/1 "맑은 고딕";
+}
+#menual .inner .menuCon > li .menuSub > li > ul li {
+  border-right: 1px solid #fff;
+  margin-right: 5px;
+  font: 10px/1 "맑은 고딕";
+  padding-right: 10px;
+}
+#menual .inner .menuCon > li .menuSub > li > ul li:last-child {
+  border: none;
+}
+#menual .inner .menuCon > li .menuSub > li button {
+  cursor: pointer;
+  border: none;
+  width: 70px;
+  height: 20px;
+  border-radius: 10px;
+  margin: 0 auto;
+  background-color: #fff;
+  font: 12px/1 "맑은 고딕";
+}
+#menual .inner .menuCon2 {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  border: 1px solid #fff;
+  border-radius: 20px;
+  padding: 20px;
+  background-color: #555;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+#menual .inner .menuCon2 li {
+  margin-bottom: 20px;
+}
+#menual .inner .menuCon2 li i {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+#menual .inner .menuCon2 li h5 {
+  font: bold 14px/1 "맑은 고딕";
+}
+#menual .inner .menuCon2 li span {
+  font: 12px/1.5 "맑은 고딕";
+}
+#menual .inner .menuCon2 li button {
+  display: block;
+  margin: 0 auto;
+  cursor: pointer;
+  border: none;
+  width: 70px;
+  height: 20px;
+  border-radius: 10px;
+  background-color: #fff;
+  font: 12px/1 "맑은 고딕";
+  margin-top: 10px;
 }
 
 /*# sourceMappingURL=style.css.map */

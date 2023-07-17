@@ -2,12 +2,13 @@
   max-width: 1200px;
   height: 100vh;
   margin: 0 auto;
-  padding: 200px 20px 20px 20px;
+  padding: 150px 20px 20px 20px;
 
   ul {
     display: flex;
     justify-content: space-around;
     transition: 0.5s;
+    align-items: center;
 
     li {
       height: 100%;
@@ -190,14 +191,15 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 50px;
 
     a {
       position: relative;
-      margin-top: 50px;
       color: #fff;
       font: bold 25px/1 "arial";
 
       span {
+
         &::before,
         &::after {
           display: block;
@@ -212,6 +214,7 @@
 
       &:nth-of-type(1) {
         span {
+
           &::before,
           &::after {
             top: -25px;
@@ -232,6 +235,7 @@
 
       &:nth-of-type(2) {
         span {
+
           &::before,
           &::after {
             bottom: -25px;
@@ -248,6 +252,21 @@
             right: 5px;
           }
         }
+      }
+    }
+
+    >span {
+      &:nth-of-type(1) {
+        color: #fff;
+        margin-top: 10px;
+        font: 12px/1 "arial";
+      }
+
+      &:nth-of-type(2) {
+        color: #fff;
+        margin-top: 50px;
+        margin-bottom: 10px;
+        font: 12px/1 "arial";
       }
     }
   }
