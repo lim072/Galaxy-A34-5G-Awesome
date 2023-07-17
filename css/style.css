@@ -2223,7 +2223,83 @@ footer .inner {
   max-width: 1200px;
   height: 100%;
   margin: 0 auto;
+  color: #ddd;
+}
+footer .inner .footerText {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 100%;
+  padding: 10px;
+}
+footer .inner .footerText li {
+  font: 11px/1.5 "맑은 고딕";
+  border-right: 1px solid #ddd;
+  padding-right: 20px;
+  margin-left: 20px;
+}
+footer .inner .footerText li button {
+  border: none;
+  outline: none;
+  background-color: #eee;
+  border-radius: 10px;
+  font: 11px/1 "맑은 고딕";
+  width: 110px;
+  height: 20px;
+  cursor: pointer;
+}
+footer .inner .footerText li:nth-of-type(9) {
+  border: none;
+}
+footer .inner .footerText li:nth-of-type(10) {
+  border: none;
+}
+footer .inner .footerText li:nth-of-type(10) p {
+  margin: 20px 0;
+}
+footer .inner .footerText li:last-child {
+  border: none;
+}
+footer .inner .footerCon {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+footer .inner .footerCon ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 50%;
+  padding: 10px;
+}
+footer .inner .footerCon ul li {
+  font: bold 12px/1.5 "맑은 고딕";
+  border-right: 1px solid #fff;
+  padding-right: 20px;
+  margin-left: 20px;
+}
+footer .inner .footerCon ul li a {
   color: #fff;
+}
+footer .inner .footerCon .select {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+footer .inner .footerCon .select select {
+  display: block;
+  width: 150px;
+  height: 30px;
+  border-radius: 12px;
+  font: 12px/1 "맑은 고딕";
+  margin-right: 10px;
+}
+footer .inner .footerCon .sns span {
+  font: 12px/1 "맑은 고딕";
+}
+footer .inner .footerCon .sns p i {
+  color: #fff;
+  font-size: 25px;
 }
 
 /*# sourceMappingURL=style.css.map */

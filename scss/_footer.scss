@@ -1,12 +1,110 @@
-footer{
+footer {
     width: 100%;
     height: 100%;
     background-color: #333;
-    .inner{
+
+    .inner {
         padding-top: 100px;
         max-width: 1200px;
         height: 100%;
         margin: 0 auto;
-        color: #fff;
+        color: #ddd;
+
+        .footerText {
+            display: flex;
+            flex-wrap: wrap;
+
+            align-items: center;
+            width: 100%;
+            padding: 10px;
+
+            li {
+                font: 11px/1.5 '맑은 고딕';
+                border-right: 1px solid #ddd;
+                padding-right: 20px;
+                margin-left: 20px;
+
+                button {
+                    border: none;
+                    outline: none;
+                    background-color: #eee;
+                    border-radius: 10px;
+                    font: 11px/1 '맑은 고딕';
+                    width: 110px;
+                    height: 20px;
+                    cursor: pointer;
+                }
+
+                &:nth-of-type(9) {
+                    border: none;
+                }
+
+                &:nth-of-type(10) {
+                    border: none;
+
+                    p {
+                        margin: 20px 0;
+                    }
+                }
+
+                &:last-child {
+                    border: none;
+                }
+            }
+        }
+
+        .footerCon {
+            display: flex;
+            flex-wrap: wrap;
+            width: 100%;
+
+            ul {
+                display: flex;
+                flex-wrap: wrap;
+
+                align-items: center;
+                width: 50%;
+                padding: 10px;
+
+                li {
+                    font: bold 12px/1.5 '맑은 고딕';
+                    border-right: 1px solid #fff;
+                    padding-right: 20px;
+                    margin-left: 20px;
+
+                    a {
+                        color: #fff;
+                    }
+                }
+            }
+
+            .select {
+                display: flex;
+                justify-content: space-between;
+                padding: 20px;
+
+                select {
+                    display: block;
+                    width: 150px;
+                    height: 30px;
+                    border-radius: 12px;
+                    font: 12px/1 '맑은 고딕';
+                    margin-right: 10px;
+                }
+            }
+
+            .sns {
+                span {
+                    font: 12px/1 '맑은 고딕';
+                }
+
+                p {
+                    i {
+                        color: #fff;
+                        font-size: 25px;
+                    }
+                }
+            }
+        }
     }
 }
