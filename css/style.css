@@ -566,38 +566,6 @@ header .btns ul .btn:nth-of-type(4) span {
   font: bold 16px/1.5 "맑은 고딕";
   padding: 40px;
 }
-#visualConSilver .inner .contentBox .con4 {
-  grid-column-start: 1;
-  grid-column-end: 6;
-  overflow: hidden;
-  position: relative;
-  object-fit: fill;
-}
-#visualConSilver .inner .contentBox .con4 span {
-  display: block;
-  width: 100%;
-  text-align: center;
-  position: absolute;
-  top: 20px;
-  font: bold 25px/1.5 "맑은 고딕";
-  color: #eee;
-  z-index: 1;
-}
-#visualConSilver .inner .contentBox .con4 a {
-  display: block;
-  width: 100%;
-  text-align: center;
-  position: absolute;
-  top: 200px;
-  font: bold 16px/1.5 "맑은 고딕";
-  color: #eee;
-  z-index: 1;
-}
-#visualConSilver .inner .contentBox .con4 video {
-  width: 135%;
-  position: absolute;
-  bottom: 0;
-}
 #visualConSilver .inner .contentBox .con5 {
   grid-column-start: 6;
   grid-column-end: 9;
@@ -655,76 +623,6 @@ header .btns ul .btn:nth-of-type(4) span {
   -webkit-background-clip: text;
   color: transparent;
   font: bold 16px/1.5 "맑은 고딕";
-}
-#visualConSilver .inner .contentBox .con7 {
-  grid-row-start: 4;
-  grid-row-end: 6;
-  grid-column-start: 4;
-  grid-column-end: 9;
-  overflow: hidden;
-  position: relative;
-}
-#visualConSilver .inner .contentBox .con7 img {
-  width: 100%;
-}
-#visualConSilver .inner .contentBox .con7 > span:nth-of-type(1) {
-  display: block;
-  width: 90%;
-  height: 40px;
-  border-radius: 25px;
-  background-color: rgba(0, 0, 0, 0.5);
-  text-align: center;
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  top: 40px;
-  font: bold 25px/40px "맑은 고딕";
-  color: #fff;
-  z-index: 1;
-}
-#visualConSilver .inner .contentBox .con7 > span:nth-of-type(2) {
-  display: block;
-  width: 50%;
-  height: 30px;
-  border-radius: 15px;
-  background-color: rgba(0, 0, 0, 0.5);
-  margin: 0 auto;
-  text-align: center;
-  position: absolute;
-  top: 100px;
-  left: 50%;
-  transform: translateX(-50%);
-  font: 16px/30px "맑은 고딕";
-  color: #fff;
-  z-index: 1;
-}
-#visualConSilver .inner .contentBox .con7 div {
-  width: 100%;
-  height: 30px;
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  bottom: 50px;
-  display: flex;
-  justify-content: space-around;
-}
-#visualConSilver .inner .contentBox .con7 div span:nth-of-type(1) {
-  width: 30%;
-  height: 30px;
-  border-radius: 15px;
-  background-color: rgba(0, 0, 0, 0.5);
-  text-align: center;
-  font: 16px/30px "맑은 고딕";
-  color: #fff;
-}
-#visualConSilver .inner .contentBox .con7 div span:nth-of-type(2) {
-  width: 30%;
-  height: 30px;
-  border-radius: 15px;
-  background-color: rgba(0, 0, 0, 0.5);
-  text-align: center;
-  font: 16px/30px "맑은 고딕";
-  color: #fff;
 }
 #visualConSilver .inner .contentBox .con8 {
   grid-column-start: 1;
@@ -887,6 +785,9 @@ header .btns ul .btn:nth-of-type(4) span {
 #visualConLime .inner .contentBox .con2 img {
   float: right;
   width: 310px;
+  position: relative;
+  bottom: -40px;
+  right: -50px;
 }
 #visualConLime .inner .contentBox .con2 span {
   display: block;
@@ -934,38 +835,6 @@ header .btns ul .btn:nth-of-type(4) span {
   color: transparent;
   font: bold 16px/1.5 "맑은 고딕";
   padding: 40px;
-}
-#visualConLime .inner .contentBox .con4 {
-  grid-column-start: 1;
-  grid-column-end: 6;
-  overflow: hidden;
-  position: relative;
-  object-fit: fill;
-}
-#visualConLime .inner .contentBox .con4 span {
-  display: block;
-  width: 100%;
-  text-align: center;
-  position: absolute;
-  top: 20px;
-  font: bold 25px/1.5 "맑은 고딕";
-  color: #eee;
-  z-index: 1;
-}
-#visualConLime .inner .contentBox .con4 a {
-  display: block;
-  width: 100%;
-  text-align: center;
-  position: absolute;
-  top: 200px;
-  font: bold 16px/1.5 "맑은 고딕";
-  color: #eee;
-  z-index: 1;
-}
-#visualConLime .inner .contentBox .con4 video {
-  width: 135%;
-  position: absolute;
-  bottom: 0;
 }
 #visualConLime .inner .contentBox .con5 {
   grid-column-start: 6;
@@ -1024,76 +893,6 @@ header .btns ul .btn:nth-of-type(4) span {
   -webkit-background-clip: text;
   color: transparent;
   font: bold 16px/1.5 "맑은 고딕";
-}
-#visualConLime .inner .contentBox .con7 {
-  grid-row-start: 4;
-  grid-row-end: 6;
-  grid-column-start: 4;
-  grid-column-end: 9;
-  overflow: hidden;
-  position: relative;
-}
-#visualConLime .inner .contentBox .con7 img {
-  width: 100%;
-}
-#visualConLime .inner .contentBox .con7 > span:nth-of-type(1) {
-  display: block;
-  width: 90%;
-  height: 40px;
-  border-radius: 25px;
-  background-color: rgba(0, 0, 0, 0.5);
-  text-align: center;
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  top: 40px;
-  font: bold 25px/40px "맑은 고딕";
-  color: #fff;
-  z-index: 1;
-}
-#visualConLime .inner .contentBox .con7 > span:nth-of-type(2) {
-  display: block;
-  width: 50%;
-  height: 30px;
-  border-radius: 15px;
-  background-color: rgba(0, 0, 0, 0.5);
-  margin: 0 auto;
-  text-align: center;
-  position: absolute;
-  top: 100px;
-  left: 50%;
-  transform: translateX(-50%);
-  font: 16px/30px "맑은 고딕";
-  color: #fff;
-  z-index: 1;
-}
-#visualConLime .inner .contentBox .con7 div {
-  width: 100%;
-  height: 30px;
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  bottom: 50px;
-  display: flex;
-  justify-content: space-around;
-}
-#visualConLime .inner .contentBox .con7 div span:nth-of-type(1) {
-  width: 30%;
-  height: 30px;
-  border-radius: 15px;
-  background-color: rgba(0, 0, 0, 0.5);
-  text-align: center;
-  font: 16px/30px "맑은 고딕";
-  color: #fff;
-}
-#visualConLime .inner .contentBox .con7 div span:nth-of-type(2) {
-  width: 30%;
-  height: 30px;
-  border-radius: 15px;
-  background-color: rgba(0, 0, 0, 0.5);
-  text-align: center;
-  font: 16px/30px "맑은 고딕";
-  color: #fff;
 }
 #visualConLime .inner .contentBox .con8 {
   grid-column-start: 1;
@@ -1256,6 +1055,8 @@ header .btns ul .btn:nth-of-type(4) span {
 #visualConViolet .inner .contentBox .con2 img {
   float: right;
   width: 310px;
+  position: relative;
+  right: -30px;
 }
 #visualConViolet .inner .contentBox .con2 span {
   display: block;
@@ -1303,38 +1104,6 @@ header .btns ul .btn:nth-of-type(4) span {
   color: transparent;
   font: bold 16px/1.5 "맑은 고딕";
   padding: 40px;
-}
-#visualConViolet .inner .contentBox .con4 {
-  grid-column-start: 1;
-  grid-column-end: 6;
-  overflow: hidden;
-  position: relative;
-  object-fit: fill;
-}
-#visualConViolet .inner .contentBox .con4 span {
-  display: block;
-  width: 100%;
-  text-align: center;
-  position: absolute;
-  top: 20px;
-  font: bold 25px/1.5 "맑은 고딕";
-  color: #eee;
-  z-index: 1;
-}
-#visualConViolet .inner .contentBox .con4 a {
-  display: block;
-  width: 100%;
-  text-align: center;
-  position: absolute;
-  top: 200px;
-  font: bold 16px/1.5 "맑은 고딕";
-  color: #eee;
-  z-index: 1;
-}
-#visualConViolet .inner .contentBox .con4 video {
-  width: 135%;
-  position: absolute;
-  bottom: 0;
 }
 #visualConViolet .inner .contentBox .con5 {
   grid-column-start: 6;
@@ -1393,76 +1162,6 @@ header .btns ul .btn:nth-of-type(4) span {
   -webkit-background-clip: text;
   color: transparent;
   font: bold 16px/1.5 "맑은 고딕";
-}
-#visualConViolet .inner .contentBox .con7 {
-  grid-row-start: 4;
-  grid-row-end: 6;
-  grid-column-start: 4;
-  grid-column-end: 9;
-  overflow: hidden;
-  position: relative;
-}
-#visualConViolet .inner .contentBox .con7 img {
-  width: 100%;
-}
-#visualConViolet .inner .contentBox .con7 > span:nth-of-type(1) {
-  display: block;
-  width: 90%;
-  height: 40px;
-  border-radius: 25px;
-  background-color: rgba(0, 0, 0, 0.5);
-  text-align: center;
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  top: 40px;
-  font: bold 25px/40px "맑은 고딕";
-  color: #fff;
-  z-index: 1;
-}
-#visualConViolet .inner .contentBox .con7 > span:nth-of-type(2) {
-  display: block;
-  width: 50%;
-  height: 30px;
-  border-radius: 15px;
-  background-color: rgba(0, 0, 0, 0.5);
-  margin: 0 auto;
-  text-align: center;
-  position: absolute;
-  top: 100px;
-  left: 50%;
-  transform: translateX(-50%);
-  font: 16px/30px "맑은 고딕";
-  color: #fff;
-  z-index: 1;
-}
-#visualConViolet .inner .contentBox .con7 div {
-  width: 100%;
-  height: 30px;
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  bottom: 50px;
-  display: flex;
-  justify-content: space-around;
-}
-#visualConViolet .inner .contentBox .con7 div span:nth-of-type(1) {
-  width: 30%;
-  height: 30px;
-  border-radius: 15px;
-  background-color: rgba(0, 0, 0, 0.5);
-  text-align: center;
-  font: 16px/30px "맑은 고딕";
-  color: #fff;
-}
-#visualConViolet .inner .contentBox .con7 div span:nth-of-type(2) {
-  width: 30%;
-  height: 30px;
-  border-radius: 15px;
-  background-color: rgba(0, 0, 0, 0.5);
-  text-align: center;
-  font: 16px/30px "맑은 고딕";
-  color: #fff;
 }
 #visualConViolet .inner .contentBox .con8 {
   grid-column-start: 1;
@@ -1624,7 +1323,10 @@ header .btns ul .btn:nth-of-type(4) span {
 }
 #visualConGraphite .inner .contentBox .con2 img {
   float: right;
-  width: 310px;
+  position: relative;
+  width: 300px;
+  bottom: 70px;
+  left: -10px;
 }
 #visualConGraphite .inner .contentBox .con2 span {
   display: block;
@@ -1672,38 +1374,6 @@ header .btns ul .btn:nth-of-type(4) span {
   color: transparent;
   font: bold 16px/1.5 "맑은 고딕";
   padding: 40px;
-}
-#visualConGraphite .inner .contentBox .con4 {
-  grid-column-start: 1;
-  grid-column-end: 6;
-  overflow: hidden;
-  position: relative;
-  object-fit: fill;
-}
-#visualConGraphite .inner .contentBox .con4 span {
-  display: block;
-  width: 100%;
-  text-align: center;
-  position: absolute;
-  top: 20px;
-  font: bold 25px/1.5 "맑은 고딕";
-  color: #eee;
-  z-index: 1;
-}
-#visualConGraphite .inner .contentBox .con4 a {
-  display: block;
-  width: 100%;
-  text-align: center;
-  position: absolute;
-  top: 200px;
-  font: bold 16px/1.5 "맑은 고딕";
-  color: #eee;
-  z-index: 1;
-}
-#visualConGraphite .inner .contentBox .con4 video {
-  width: 135%;
-  position: absolute;
-  bottom: 0;
 }
 #visualConGraphite .inner .contentBox .con5 {
   grid-column-start: 6;
@@ -1763,76 +1433,6 @@ header .btns ul .btn:nth-of-type(4) span {
   -webkit-background-clip: text;
   color: transparent;
   font: bold 16px/1.5 "맑은 고딕";
-}
-#visualConGraphite .inner .contentBox .con7 {
-  grid-row-start: 4;
-  grid-row-end: 6;
-  grid-column-start: 4;
-  grid-column-end: 9;
-  overflow: hidden;
-  position: relative;
-}
-#visualConGraphite .inner .contentBox .con7 img {
-  width: 100%;
-}
-#visualConGraphite .inner .contentBox .con7 > span:nth-of-type(1) {
-  display: block;
-  width: 90%;
-  height: 40px;
-  border-radius: 25px;
-  background-color: rgba(0, 0, 0, 0.5);
-  text-align: center;
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  top: 40px;
-  font: bold 25px/40px "맑은 고딕";
-  color: #fff;
-  z-index: 1;
-}
-#visualConGraphite .inner .contentBox .con7 > span:nth-of-type(2) {
-  display: block;
-  width: 50%;
-  height: 30px;
-  border-radius: 15px;
-  background-color: rgba(0, 0, 0, 0.5);
-  margin: 0 auto;
-  text-align: center;
-  position: absolute;
-  top: 100px;
-  left: 50%;
-  transform: translateX(-50%);
-  font: 16px/30px "맑은 고딕";
-  color: #fff;
-  z-index: 1;
-}
-#visualConGraphite .inner .contentBox .con7 div {
-  width: 100%;
-  height: 30px;
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  bottom: 50px;
-  display: flex;
-  justify-content: space-around;
-}
-#visualConGraphite .inner .contentBox .con7 div span:nth-of-type(1) {
-  width: 30%;
-  height: 30px;
-  border-radius: 15px;
-  background-color: rgba(0, 0, 0, 0.5);
-  text-align: center;
-  font: 16px/30px "맑은 고딕";
-  color: #fff;
-}
-#visualConGraphite .inner .contentBox .con7 div span:nth-of-type(2) {
-  width: 30%;
-  height: 30px;
-  border-radius: 15px;
-  background-color: rgba(0, 0, 0, 0.5);
-  text-align: center;
-  font: 16px/30px "맑은 고딕";
-  color: #fff;
 }
 #visualConGraphite .inner .contentBox .con8 {
   grid-column-start: 1;
@@ -1928,6 +1528,112 @@ header .btns ul .btn:nth-of-type(4) span {
   bottom: 10px;
 }
 
+main .inner .con4 {
+  grid-column-start: 1;
+  grid-column-end: 6;
+  overflow: hidden;
+  position: relative;
+}
+main .inner .con4 span {
+  display: block;
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  top: 20px;
+  font: bold 25px/1.5 "맑은 고딕";
+  color: #eee;
+  z-index: 1;
+}
+main .inner .con4 a {
+  display: block;
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  top: 200px;
+  font: bold 16px/1.5 "맑은 고딕";
+  color: #eee;
+  z-index: 1;
+}
+main .inner .con4 video {
+  width: 135%;
+  position: absolute;
+  bottom: 0;
+  object-fit: fill;
+}
+main .inner .con7 {
+  grid-row-start: 4;
+  grid-row-end: 6;
+  grid-column-start: 4;
+  grid-column-end: 9;
+  overflow: hidden;
+  position: relative;
+}
+main .inner .con7 img {
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  object-fit: cover;
+}
+main .inner .con7 > span:nth-of-type(1) {
+  display: block;
+  width: 90%;
+  height: 40px;
+  border-radius: 25px;
+  background-color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 40px;
+  font: bold 25px/40px "맑은 고딕";
+  color: #fff;
+  z-index: 1;
+}
+main .inner .con7 > span:nth-of-type(2) {
+  display: block;
+  width: 50%;
+  height: 30px;
+  border-radius: 15px;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin: 0 auto;
+  text-align: center;
+  position: absolute;
+  top: 100px;
+  left: 50%;
+  transform: translateX(-50%);
+  font: 16px/30px "맑은 고딕";
+  color: #fff;
+  z-index: 1;
+}
+main .inner .con7 div {
+  width: 100%;
+  height: 30px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 50px;
+  display: flex;
+  justify-content: space-around;
+}
+main .inner .con7 div span:nth-of-type(1) {
+  width: 30%;
+  height: 30px;
+  border-radius: 15px;
+  background-color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  font: 16px/30px "맑은 고딕";
+  color: #fff;
+}
+main .inner .con7 div span:nth-of-type(2) {
+  width: 30%;
+  height: 30px;
+  border-radius: 15px;
+  background-color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  font: 16px/30px "맑은 고딕";
+  color: #fff;
+}
+
 #contentMore article {
   width: 100%;
   height: 100vh;
@@ -2001,7 +1707,7 @@ header .btns ul .btn:nth-of-type(4) span {
 #camera .morePhoto div video {
   width: 100%;
   height: 100%;
-  object-fit: fill;
+  object-fit: cover;
 }
 #camera .morePhoto p {
   margin: 0 auto;
@@ -2041,6 +1747,7 @@ header .btns ul .btn:nth-of-type(4) span {
   position: absolute;
   bottom: 0;
   left: 0;
+  width: 25%;
   transform-origin: bottom;
   animation: grass 5s infinite forwards;
 }
@@ -2048,6 +1755,7 @@ header .btns ul .btn:nth-of-type(4) span {
   position: absolute;
   bottom: 0;
   right: 0;
+  width: 25%;
   transform-origin: bottom;
   animation: grass 5s 3s infinite forwards;
 }
@@ -2320,6 +2028,7 @@ footer .inner .footerCon .sns span {
 footer .inner .footerCon .sns p i {
   color: #fff;
   font-size: 25px;
+  margin-right: 7px;
 }
 
 #precautions {
