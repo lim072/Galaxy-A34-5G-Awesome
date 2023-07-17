@@ -2,6 +2,8 @@ let clip = document.querySelectorAll(".btn");
 let frame = document.querySelector(".frame");
 let contents = frame.querySelectorAll("section");
 
+
+
 clip.forEach((el, index) => {
   el.addEventListener("click", () => {
     for (let el of clip) {

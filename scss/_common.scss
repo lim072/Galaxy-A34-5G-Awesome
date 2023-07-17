@@ -36,13 +36,13 @@ body {
   opacity: 0.9;
 }
 
-main {
+#visualContent {
   width: 100%;
   min-height: 220vh;
   margin-bottom: 100px;
 
   .frame {
-    section {
+    >section {
       position: absolute;
       opacity: 0;
       transition: 0.2s;

@@ -2,7 +2,7 @@ header {
   position: fixed;
   width: 100%;
   height: 80px;
-  background-color: rgba($color: #222222, $alpha: 0.8);
+  background-color: #000;
   z-index: 100;
 
   .inner {
@@ -109,16 +109,25 @@ header {
         box-shadow: 1px 1px 20px 20px #fff;
       }
     }
+
+
   }
 
   .btns {
-    width: 300px;
-    float: right;
-    background-color: rgba($color: #222222, $alpha: 0.8);
+    display: none;
+    max-width: 1200px;
+    margin: 0 auto;
 
     ul {
       display: flex;
       justify-content: center;
+      height: 80px;
+      align-items: center;
+      width: 300px;
+      height: 80px;
+      border-radius: 50px;
+      background-color: #000;
+      float: right;
 
       .btn {
         width: 50px;
@@ -209,4 +218,5 @@ header {
       }
     }
   }
+
 }
