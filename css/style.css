@@ -1965,7 +1965,7 @@ footer .inner .footerText {
   padding: 10px;
 }
 footer .inner .footerText li {
-  font: 11px/1.5 "맑은 고딕";
+  font: 11px/2 "맑은 고딕";
   border-right: 1px solid #ddd;
   padding-right: 20px;
   margin-left: 20px;
@@ -1979,6 +1979,7 @@ footer .inner .footerText li button {
   width: 110px;
   height: 20px;
   cursor: pointer;
+  margin-left: 10px;
 }
 footer .inner .footerText li:nth-of-type(9) {
   border: none;
