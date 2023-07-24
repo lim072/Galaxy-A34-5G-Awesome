@@ -1,0 +1,177 @@
+@media screen and (max-width : "800px") {
+    header {
+        height: 160px;
+
+        .inner {
+          margin: 0 auto;
+          display: block;
+      
+          h1 {
+            height: 0%;
+            margin-left: 50%;
+            margin-top: 0px;
+            transform: translate(-50%,-50%);
+            a {
+                img {
+                    margin-left: 20px;
+                }
+            }
+          }
+      
+          nav {
+        
+            .gnb {
+                width: 100%;
+              justify-content: space-around;
+              margin-right: 0%;
+              top: 30px;
+            
+             
+              li {
+                a {
+                  width: 20vw;
+                }
+              }
+            }
+          }
+      
+          .buy {
+            margin-top: 0px;
+            margin-right: 0px;
+            position: relative;
+            left: 50%;
+            top: 40px;
+            transform: translate(-50%,-50%);
+          }
+        }
+      
+        .btns {
+          display: none;
+          max-width: 1200px;
+          margin: 0 auto;
+      
+          ul {
+            flex-direction: row;
+            margin-right: 0px;
+            margin: 0 auto;
+            width: 90%;
+            height: 80px;
+            float: none;
+      
+          }
+        }
+      
+      }
+      #visual {
+        padding: 250px 20px 20px 20px;
+        .AwesomePop {
+          div {
+            &.on {
+              div {
+                width: 80%;
+              }
+            }
+          }
+        }
+      }
+
+      #specification {
+        .inner { 
+            .specTable {
+                dl {
+                    dt {
+                        width: 100%;
+                    }
+    
+                    dd {
+                        width: 100%;
+                        ul {
+                            li {
+                                width: 33%;
+                                
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    #visualContent {
+      height: 3200px;
+        .inner {
+            height: 3200px;
+            .contentBox {
+                margin: 50px 0;
+                display: grid;
+                width: 100%;
+                padding: 20px;
+                grid-template-rows: 300px 200px 300px 300px 300px 300px 300px 300px 300px 300px 300px;
+                grid-template-columns: repeat(8, 1fr);
+                .con1 {
+                  grid-column-end: 9;
+                }
+                .con2 {
+                    grid-column-start: 1;
+                    grid-column-end: 9;
+                  }
+            
+                  .con3 {
+                    grid-column-start: 1;
+                    grid-column-end: 9;
+                  }
+                  .con4 {
+                    grid-column-start: 1;
+                    grid-column-end: 9;
+                }
+            
+            
+                  .con5 {
+                    grid-column-start: 1;
+                    grid-column-end: 9;
+            
+                    a {
+                      text-align: right;
+                      margin-right: 50px;
+                    }
+                  }
+            
+                  .con6 {
+                    grid-column-start: 1;
+                    grid-column-end: 4;
+                    grid-row-start: 7;
+                    grid-row-end: 9;
+
+                     img {
+                            position: absolute;
+                            width: 100%;
+                            bottom: 0px;
+                            transform: translateX(-50%);
+                  
+                          } 
+
+
+                  }
+            
+            
+                  .con8 {
+                    grid-column-start: 4;
+                    grid-column-end: 9;
+                    grid-row-start: 7;
+                    grid-row-end: 9;
+                  }
+            
+    
+    
+            .con7 {
+                grid-row-start: 9;
+                grid-row-end: 11;
+                grid-column-start: 1;
+                grid-column-end: 9;
+            }
+                
+                
+            }
+        }
+    }
+}

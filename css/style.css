@@ -150,18 +150,19 @@ header .btns {
 }
 header .btns ul {
   display: flex;
-  justify-content: center;
-  height: 80px;
+  flex-direction: column;
+  justify-content: space-around;
   align-items: center;
-  width: 300px;
-  height: 80px;
+  margin-right: 20px;
+  width: 80px;
+  height: 400px;
   border-radius: 50px;
-  background-color: #000;
+  background-color: rgba(0, 0, 0, 0.4);
+  border: 2px solid #bbb;
   float: right;
 }
 header .btns ul .btn {
   width: 50px;
-  margin-right: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -224,7 +225,7 @@ header .btns ul .btn:nth-of-type(4) span {
 
 #visual {
   max-width: 1200px;
-  height: 100vh;
+  height: 1080px;
   margin: 0 auto;
   padding: 150px 20px 20px 20px;
 }
@@ -463,7 +464,6 @@ header .btns ul .btn:nth-of-type(4) span {
 }
 #visualConSilver .inner {
   max-width: 1200px;
-  min-width: 800px;
   height: 100%;
   margin: 0 auto;
   background-color: rgba(119, 119, 119, 0.4);
@@ -506,7 +506,7 @@ header .btns ul .btn:nth-of-type(4) span {
   padding: 10px;
 }
 #visualConSilver .inner .contentBox .con1 img {
-  width: 70%;
+  height: 70%;
 }
 #visualConSilver .inner .contentBox .con1 span {
   display: block;
@@ -524,7 +524,8 @@ header .btns ul .btn:nth-of-type(4) span {
 }
 #visualConSilver .inner .contentBox .con2 img {
   float: right;
-  width: 310px;
+  width: 250px;
+  margin-top: 50px;
 }
 #visualConSilver .inner .contentBox .con2 span {
   display: block;
@@ -536,6 +537,9 @@ header .btns ul .btn:nth-of-type(4) span {
   color: transparent;
   font: bold 25px/1.5 "맑은 고딕";
   padding: 40px;
+  white-space: nowrap;
+  position: relative;
+  z-index: 10;
 }
 #visualConSilver .inner .contentBox .con2 a {
   display: block;
@@ -545,6 +549,9 @@ header .btns ul .btn:nth-of-type(4) span {
   color: transparent;
   font: bold 16px/1.5 "맑은 고딕";
   padding: 40px;
+  white-space: nowrap;
+  position: relative;
+  z-index: 10;
 }
 #visualConSilver .inner .contentBox .con3 {
   grid-column-start: 5;
@@ -555,7 +562,7 @@ header .btns ul .btn:nth-of-type(4) span {
 }
 #visualConSilver .inner .contentBox .con3 span {
   display: block;
-  width: 60%;
+  width: 70%;
   height: 50%;
   background: linear-gradient(#fff, #9cc2d1);
   background-clip: text;
@@ -563,6 +570,9 @@ header .btns ul .btn:nth-of-type(4) span {
   color: transparent;
   font: bold 25px/1.5 "맑은 고딕";
   padding: 40px;
+  white-space: nowrap;
+  position: relative;
+  z-index: 10;
 }
 #visualConSilver .inner .contentBox .con3 a {
   display: block;
@@ -572,6 +582,9 @@ header .btns ul .btn:nth-of-type(4) span {
   color: transparent;
   font: bold 16px/1.5 "맑은 고딕";
   padding: 40px;
+  white-space: nowrap;
+  position: relative;
+  z-index: 10;
 }
 #visualConSilver .inner .contentBox .con5 {
   grid-column-start: 6;
@@ -615,7 +628,6 @@ header .btns ul .btn:nth-of-type(4) span {
 #visualConSilver .inner .contentBox .con6 span {
   display: block;
   width: 100%;
-  height: 5%;
   background: linear-gradient(#fff, #9cc2d1);
   background-clip: text;
   -webkit-background-clip: text;
@@ -642,11 +654,12 @@ header .btns ul .btn:nth-of-type(4) span {
   position: absolute;
   left: 100px;
   bottom: -330px;
-  width: 400px;
+  width: 100%;
 }
 #visualConSilver .inner .contentBox .con8 > span {
   display: block;
   width: 100%;
+  padding: 10px;
   background: linear-gradient(#fff, #9cc2d1);
   background-clip: text;
   -webkit-background-clip: text;
@@ -676,11 +689,11 @@ header .btns ul .btn:nth-of-type(4) span {
   display: block;
   content: "";
   width: 1px;
-  height: 30px;
+  height: 15px;
   background-color: #fff;
   position: absolute;
   right: 10px;
-  bottom: -35px;
+  bottom: -15px;
 }
 #visualConSilver .inner .contentBox .con8 .cameraCon span:nth-of-type(2) {
   left: 20px;
@@ -689,11 +702,11 @@ header .btns ul .btn:nth-of-type(4) span {
 #visualConSilver .inner .contentBox .con8 .cameraCon span:nth-of-type(2)::before {
   display: block;
   content: "";
-  width: 50px;
+  width: 30px;
   height: 1px;
   background-color: #fff;
   position: absolute;
-  right: -50px;
+  right: -20px;
   bottom: 10px;
 }
 #visualConSilver .inner .contentBox .con8 .cameraCon span:nth-of-type(3) {
@@ -703,11 +716,11 @@ header .btns ul .btn:nth-of-type(4) span {
 #visualConSilver .inner .contentBox .con8 .cameraCon span:nth-of-type(3)::before {
   display: block;
   content: "";
-  width: 50px;
+  width: 30px;
   height: 1px;
   background-color: #fff;
   position: absolute;
-  right: -50px;
+  right: -20px;
   bottom: 10px;
 }
 #visualConSilver .inner .contentBox .con8 .cameraCon span:nth-of-type(4) {
@@ -717,11 +730,11 @@ header .btns ul .btn:nth-of-type(4) span {
 #visualConSilver .inner .contentBox .con8 .cameraCon span:nth-of-type(4)::before {
   display: block;
   content: "";
-  width: 50px;
+  width: 30px;
   height: 1px;
   background-color: #fff;
   position: absolute;
-  right: -50px;
+  right: -20px;
   bottom: 10px;
 }
 
@@ -730,7 +743,6 @@ header .btns ul .btn:nth-of-type(4) span {
 }
 #visualConLime .inner {
   max-width: 1200px;
-  min-width: 800px;
   height: 100%;
   margin: 0 auto;
   background-color: rgba(119, 119, 119, 0.4);
@@ -773,7 +785,7 @@ header .btns ul .btn:nth-of-type(4) span {
   padding: 10px;
 }
 #visualConLime .inner .contentBox .con1 img {
-  width: 70%;
+  height: 70%;
 }
 #visualConLime .inner .contentBox .con1 span {
   display: block;
@@ -806,6 +818,9 @@ header .btns ul .btn:nth-of-type(4) span {
   color: transparent;
   font: bold 25px/1.5 "맑은 고딕";
   padding: 40px;
+  white-space: nowrap;
+  position: relative;
+  z-index: 10;
 }
 #visualConLime .inner .contentBox .con2 a {
   display: block;
@@ -815,6 +830,9 @@ header .btns ul .btn:nth-of-type(4) span {
   color: transparent;
   font: bold 16px/1.5 "맑은 고딕";
   padding: 40px;
+  white-space: nowrap;
+  position: relative;
+  z-index: 10;
 }
 #visualConLime .inner .contentBox .con3 {
   grid-column-start: 5;
@@ -825,7 +843,7 @@ header .btns ul .btn:nth-of-type(4) span {
 }
 #visualConLime .inner .contentBox .con3 span {
   display: block;
-  width: 60%;
+  width: 70%;
   height: 50%;
   background: linear-gradient(#e8ff96, #abf0a9);
   background-clip: text;
@@ -833,6 +851,9 @@ header .btns ul .btn:nth-of-type(4) span {
   color: transparent;
   font: bold 25px/1.5 "맑은 고딕";
   padding: 40px;
+  white-space: nowrap;
+  position: relative;
+  z-index: 10;
 }
 #visualConLime .inner .contentBox .con3 a {
   display: block;
@@ -842,6 +863,9 @@ header .btns ul .btn:nth-of-type(4) span {
   color: transparent;
   font: bold 16px/1.5 "맑은 고딕";
   padding: 40px;
+  white-space: nowrap;
+  position: relative;
+  z-index: 10;
 }
 #visualConLime .inner .contentBox .con5 {
   grid-column-start: 6;
@@ -885,7 +909,6 @@ header .btns ul .btn:nth-of-type(4) span {
 #visualConLime .inner .contentBox .con6 span {
   display: block;
   width: 100%;
-  height: 5%;
   background: linear-gradient(#e8ff96, #abf0a9);
   background-clip: text;
   -webkit-background-clip: text;
@@ -1000,7 +1023,6 @@ header .btns ul .btn:nth-of-type(4) span {
 }
 #visualConViolet .inner {
   max-width: 1200px;
-  min-width: 800px;
   height: 100%;
   margin: 0 auto;
   background-color: rgba(119, 119, 119, 0.4);
@@ -1043,7 +1065,7 @@ header .btns ul .btn:nth-of-type(4) span {
   padding: 10px;
 }
 #visualConViolet .inner .contentBox .con1 img {
-  width: 70%;
+  height: 70%;
 }
 #visualConViolet .inner .contentBox .con1 span {
   display: block;
@@ -1075,6 +1097,9 @@ header .btns ul .btn:nth-of-type(4) span {
   color: transparent;
   font: bold 25px/1.5 "맑은 고딕";
   padding: 40px;
+  white-space: nowrap;
+  position: relative;
+  z-index: 10;
 }
 #visualConViolet .inner .contentBox .con2 a {
   display: block;
@@ -1084,6 +1109,9 @@ header .btns ul .btn:nth-of-type(4) span {
   color: transparent;
   font: bold 16px/1.5 "맑은 고딕";
   padding: 40px;
+  white-space: nowrap;
+  position: relative;
+  z-index: 10;
 }
 #visualConViolet .inner .contentBox .con3 {
   grid-column-start: 5;
@@ -1094,7 +1122,7 @@ header .btns ul .btn:nth-of-type(4) span {
 }
 #visualConViolet .inner .contentBox .con3 span {
   display: block;
-  width: 60%;
+  width: 70%;
   height: 50%;
   background: linear-gradient(#fcd6fd, #b09df7);
   background-clip: text;
@@ -1102,6 +1130,9 @@ header .btns ul .btn:nth-of-type(4) span {
   color: transparent;
   font: bold 25px/1.5 "맑은 고딕";
   padding: 40px;
+  white-space: nowrap;
+  position: relative;
+  z-index: 10;
 }
 #visualConViolet .inner .contentBox .con3 a {
   display: block;
@@ -1111,6 +1142,9 @@ header .btns ul .btn:nth-of-type(4) span {
   color: transparent;
   font: bold 16px/1.5 "맑은 고딕";
   padding: 40px;
+  white-space: nowrap;
+  position: relative;
+  z-index: 10;
 }
 #visualConViolet .inner .contentBox .con5 {
   grid-column-start: 6;
@@ -1154,7 +1188,6 @@ header .btns ul .btn:nth-of-type(4) span {
 #visualConViolet .inner .contentBox .con6 span {
   display: block;
   width: 100%;
-  height: 5%;
   background: linear-gradient(#fcd6fd, #b09df7);
   background-clip: text;
   -webkit-background-clip: text;
@@ -1269,7 +1302,6 @@ header .btns ul .btn:nth-of-type(4) span {
 }
 #visualConGraphite .inner {
   max-width: 1200px;
-  min-width: 800px;
   height: 100%;
   margin: 0 auto;
   background-color: rgba(119, 119, 119, 0.4);
@@ -1312,7 +1344,7 @@ header .btns ul .btn:nth-of-type(4) span {
   padding: 10px;
 }
 #visualConGraphite .inner .contentBox .con1 img {
-  width: 70%;
+  height: 70%;
 }
 #visualConGraphite .inner .contentBox .con1 span {
   display: block;
@@ -1345,6 +1377,9 @@ header .btns ul .btn:nth-of-type(4) span {
   color: transparent;
   font: bold 25px/1.5 "맑은 고딕";
   padding: 40px;
+  white-space: nowrap;
+  position: relative;
+  z-index: 10;
 }
 #visualConGraphite .inner .contentBox .con2 a {
   display: block;
@@ -1354,6 +1389,9 @@ header .btns ul .btn:nth-of-type(4) span {
   color: transparent;
   font: bold 16px/1.5 "맑은 고딕";
   padding: 40px;
+  white-space: nowrap;
+  position: relative;
+  z-index: 10;
 }
 #visualConGraphite .inner .contentBox .con3 {
   grid-column-start: 5;
@@ -1364,7 +1402,7 @@ header .btns ul .btn:nth-of-type(4) span {
 }
 #visualConGraphite .inner .contentBox .con3 span {
   display: block;
-  width: 60%;
+  width: 70%;
   height: 50%;
   background: linear-gradient(#d8d8d8, #5b5c5c);
   background-clip: text;
@@ -1372,6 +1410,9 @@ header .btns ul .btn:nth-of-type(4) span {
   color: transparent;
   font: bold 25px/1.5 "맑은 고딕";
   padding: 40px;
+  white-space: nowrap;
+  position: relative;
+  z-index: 10;
 }
 #visualConGraphite .inner .contentBox .con3 a {
   display: block;
@@ -1381,6 +1422,9 @@ header .btns ul .btn:nth-of-type(4) span {
   color: transparent;
   font: bold 16px/1.5 "맑은 고딕";
   padding: 40px;
+  white-space: nowrap;
+  position: relative;
+  z-index: 10;
 }
 #visualConGraphite .inner .contentBox .con5 {
   grid-column-start: 6;
@@ -1425,7 +1469,6 @@ header .btns ul .btn:nth-of-type(4) span {
 #visualConGraphite .inner .contentBox .con6 span {
   display: block;
   width: 100%;
-  height: 5%;
   background: linear-gradient(#d8d8d8, #5b5c5c);
   background-clip: text;
   -webkit-background-clip: text;
@@ -1535,6 +1578,13 @@ header .btns ul .btn:nth-of-type(4) span {
   bottom: 10px;
 }
 
+#visualContent {
+  width: 100%;
+  height: 2000px;
+}
+#visualContent .inner {
+  margin: 20px auto;
+}
 #visualContent .inner .con4 {
   grid-column-start: 1;
   grid-column-end: 6;
@@ -1652,10 +1702,19 @@ header .btns ul .btn:nth-of-type(4) span {
   padding: 20px;
   max-width: 1200px;
   height: 100%;
+  overflow: auto;
   margin: 0 auto;
   text-align: center;
   background-color: #222;
   border-radius: 20px;
+}
+#contentMore article .inner::-webkit-scrollbar {
+  width: 12px;
+}
+#contentMore article .inner::-webkit-scrollbar-thumb {
+  background: linear-gradient(#7191bb, #444);
+  border-radius: 5px;
+  margin: 5px;
 }
 #contentMore article .inner h3 {
   font: bold 25px/1 "맑은 고딕";
@@ -1675,7 +1734,7 @@ header .btns ul .btn:nth-of-type(4) span {
 #display .morePhoto div {
   border-radius: 20px;
   width: 40%;
-  height: 400px;
+  max-height: 400px;
   overflow: hidden;
 }
 #display .morePhoto div img {
@@ -2234,6 +2293,131 @@ footer .inner .footerCon .sns p i {
   background-color: #fff;
   font: 12px/1 "맑은 고딕";
   margin-top: 10px;
+}
+
+@media screen and (max-width: 800px) {
+  header {
+    height: 160px;
+  }
+  header .inner {
+    margin: 0 auto;
+    display: block;
+  }
+  header .inner h1 {
+    height: 0%;
+    margin-left: 50%;
+    margin-top: 0px;
+    transform: translate(-50%, -50%);
+  }
+  header .inner h1 a img {
+    margin-left: 20px;
+  }
+  header .inner nav .gnb {
+    width: 100%;
+    justify-content: space-around;
+    margin-right: 0%;
+    top: 30px;
+  }
+  header .inner nav .gnb li a {
+    width: 20vw;
+  }
+  header .inner .buy {
+    margin-top: 0px;
+    margin-right: 0px;
+    position: relative;
+    left: 50%;
+    top: 40px;
+    transform: translate(-50%, -50%);
+  }
+  header .btns {
+    display: none;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  header .btns ul {
+    flex-direction: row;
+    margin-right: 0px;
+    margin: 0 auto;
+    width: 90%;
+    height: 80px;
+    float: none;
+  }
+  #visual {
+    padding: 250px 20px 20px 20px;
+  }
+  #visual .AwesomePop div.on div {
+    width: 80%;
+  }
+  #specification .inner .specTable dl dt {
+    width: 100%;
+  }
+  #specification .inner .specTable dl dd {
+    width: 100%;
+  }
+  #specification .inner .specTable dl dd ul li {
+    width: 33%;
+  }
+  #visualContent {
+    height: 3200px;
+  }
+  #visualContent .inner {
+    height: 3200px;
+  }
+  #visualContent .inner .contentBox {
+    margin: 50px 0;
+    display: grid;
+    width: 100%;
+    padding: 20px;
+    grid-template-rows: 300px 200px 300px 300px 300px 300px 300px 300px 300px 300px 300px;
+    grid-template-columns: repeat(8, 1fr);
+  }
+  #visualContent .inner .contentBox .con1 {
+    grid-column-end: 9;
+  }
+  #visualContent .inner .contentBox .con2 {
+    grid-column-start: 1;
+    grid-column-end: 9;
+  }
+  #visualContent .inner .contentBox .con3 {
+    grid-column-start: 1;
+    grid-column-end: 9;
+  }
+  #visualContent .inner .contentBox .con4 {
+    grid-column-start: 1;
+    grid-column-end: 9;
+  }
+  #visualContent .inner .contentBox .con5 {
+    grid-column-start: 1;
+    grid-column-end: 9;
+  }
+  #visualContent .inner .contentBox .con5 a {
+    text-align: right;
+    margin-right: 50px;
+  }
+  #visualContent .inner .contentBox .con6 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 7;
+    grid-row-end: 9;
+  }
+  #visualContent .inner .contentBox .con6 img {
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+    transform: translateX(-50%);
+  }
+  #visualContent .inner .contentBox .con8 {
+    grid-column-start: 4;
+    grid-column-end: 9;
+    grid-row-start: 7;
+    grid-row-end: 9;
+  }
+  #visualContent .inner .contentBox .con7 {
+    grid-row-start: 9;
+    grid-row-end: 11;
+    grid-column-start: 1;
+    grid-column-end: 9;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
