@@ -18,7 +18,7 @@ function setPos() {
 
 
 window.addEventListener("scroll", () => {
-    if (window.pageYOffset < 800 || window.pageYOffset > 3100) {
+    if (window.pageYOffset < 800 || window.pageYOffset > 2900) {
         btns.style.display = "none";
     } else {
         btns.style.display = "block";

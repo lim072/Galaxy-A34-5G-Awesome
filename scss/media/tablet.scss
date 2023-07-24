@@ -144,7 +144,7 @@
 
                      img {
                             position: absolute;
-                            width: 100%;
+                            width: 120%;
                             bottom: 0px;
                             transform: translateX(-50%);
                   
@@ -152,6 +152,13 @@
 
 
                   }
+                  
+            .con7 {
+              grid-row-start: 9;
+              grid-row-end: 11;
+              grid-column-start: 1;
+              grid-column-end: 9;
+          }
             
             
                   .con8 {
@@ -159,16 +166,61 @@
                     grid-column-end: 9;
                     grid-row-start: 7;
                     grid-row-end: 9;
+
+                    img {
+                      position: absolute;
+                      top: 50%;
+                      left: 50%;
+                      transform: translateX(-50%);
+                      width: 80%;
+                      height: 400px;
+                    }
+
+                    
+        .cameraCon {
+
+         span {
+          display: block;
+          font: 12px/1.2 '맑은 고딕';
+          color: #fff;
+          position: absolute;
+          width: 100px;
+          height: 30px;
+
+            &:nth-of-type(1) {
+              right: 50px;
+              top: 170px;
+
+            }
+
+            &:nth-of-type(2) {
+              left: 50px;
+              top: 40px;
+
+
+            }
+
+            &:nth-of-type(3) {
+              left: 50px;
+              top: 80px;
+
+    
+            }
+
+            &:nth-of-type(4) {
+              left: 50px;
+              top:130px;
+
+ 
+            
+            }
+          }
+        }
+            
                   }
             
     
     
-            .con7 {
-                grid-row-start: 9;
-                grid-row-end: 11;
-                grid-column-start: 1;
-                grid-column-end: 9;
-            }
                 
                 
             }

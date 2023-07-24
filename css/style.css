@@ -526,10 +526,11 @@ header .btns ul .btn:nth-of-type(4) span {
   float: right;
   width: 250px;
   margin-top: 50px;
+  opacity: 0.7;
 }
 #visualConSilver .inner .contentBox .con2 span {
   display: block;
-  width: 60%;
+  width: 100%;
   height: 50%;
   background: linear-gradient(#fff, #9cc2d1);
   background-clip: text;
@@ -562,7 +563,7 @@ header .btns ul .btn:nth-of-type(4) span {
 }
 #visualConSilver .inner .contentBox .con3 span {
   display: block;
-  width: 70%;
+  width: 100%;
   height: 50%;
   background: linear-gradient(#fff, #9cc2d1);
   background-clip: text;
@@ -633,7 +634,8 @@ header .btns ul .btn:nth-of-type(4) span {
   -webkit-background-clip: text;
   color: transparent;
   font: bold 25px/1.5 "맑은 고딕";
-  padding: 40px;
+  padding: 10px;
+  margin-bottom: 10px;
 }
 #visualConSilver .inner .contentBox .con6 a {
   display: block;
@@ -652,9 +654,9 @@ header .btns ul .btn:nth-of-type(4) span {
 }
 #visualConSilver .inner .contentBox .con8 img {
   position: absolute;
-  left: 100px;
-  bottom: -330px;
-  width: 100%;
+  top: 50%;
+  left: 30%;
+  width: 230px;
 }
 #visualConSilver .inner .contentBox .con8 > span {
   display: block;
@@ -685,57 +687,17 @@ header .btns ul .btn:nth-of-type(4) span {
   right: 20px;
   top: 10px;
 }
-#visualConSilver .inner .contentBox .con8 .cameraCon span:nth-of-type(1)::before {
-  display: block;
-  content: "";
-  width: 1px;
-  height: 15px;
-  background-color: #fff;
-  position: absolute;
-  right: 10px;
-  bottom: -15px;
-}
 #visualConSilver .inner .contentBox .con8 .cameraCon span:nth-of-type(2) {
   left: 20px;
-  top: 80px;
-}
-#visualConSilver .inner .contentBox .con8 .cameraCon span:nth-of-type(2)::before {
-  display: block;
-  content: "";
-  width: 30px;
-  height: 1px;
-  background-color: #fff;
-  position: absolute;
-  right: -20px;
-  bottom: 10px;
+  top: 30px;
 }
 #visualConSilver .inner .contentBox .con8 .cameraCon span:nth-of-type(3) {
   left: 20px;
-  top: 120px;
-}
-#visualConSilver .inner .contentBox .con8 .cameraCon span:nth-of-type(3)::before {
-  display: block;
-  content: "";
-  width: 30px;
-  height: 1px;
-  background-color: #fff;
-  position: absolute;
-  right: -20px;
-  bottom: 10px;
+  top: 70px;
 }
 #visualConSilver .inner .contentBox .con8 .cameraCon span:nth-of-type(4) {
   left: 20px;
-  top: 160px;
-}
-#visualConSilver .inner .contentBox .con8 .cameraCon span:nth-of-type(4)::before {
-  display: block;
-  content: "";
-  width: 30px;
-  height: 1px;
-  background-color: #fff;
-  position: absolute;
-  right: -20px;
-  bottom: 10px;
+  top: 130px;
 }
 
 #visualConLime {
@@ -810,7 +772,7 @@ header .btns ul .btn:nth-of-type(4) span {
 }
 #visualConLime .inner .contentBox .con2 span {
   display: block;
-  width: 60%;
+  width: 100%;
   height: 50%;
   background: linear-gradient(#e8ff96, #abf0a9);
   background-clip: text;
@@ -843,7 +805,7 @@ header .btns ul .btn:nth-of-type(4) span {
 }
 #visualConLime .inner .contentBox .con3 span {
   display: block;
-  width: 70%;
+  width: 100%;
   height: 50%;
   background: linear-gradient(#e8ff96, #abf0a9);
   background-clip: text;
@@ -914,7 +876,8 @@ header .btns ul .btn:nth-of-type(4) span {
   -webkit-background-clip: text;
   color: transparent;
   font: bold 25px/1.5 "맑은 고딕";
-  padding: 40px;
+  padding: 10px;
+  margin-bottom: 10px;
 }
 #visualConLime .inner .contentBox .con6 a {
   display: block;
@@ -933,9 +896,9 @@ header .btns ul .btn:nth-of-type(4) span {
 }
 #visualConLime .inner .contentBox .con8 img {
   position: absolute;
-  left: 100px;
-  bottom: -330px;
-  width: 400px;
+  top: 50%;
+  left: 30%;
+  width: 230px;
 }
 #visualConLime .inner .contentBox .con8 > span {
   display: block;
@@ -945,8 +908,9 @@ header .btns ul .btn:nth-of-type(4) span {
   -webkit-background-clip: text;
   color: transparent;
   text-align: center;
-  font: bold 20px/1.5 "맑은 고딕";
+  font: bold 18px/1.5 "맑은 고딕";
   margin-top: 20px;
+  padding: 10px;
 }
 #visualConLime .inner .contentBox .con8 .cameraCon {
   width: 100%;
@@ -965,57 +929,17 @@ header .btns ul .btn:nth-of-type(4) span {
   right: 20px;
   top: 10px;
 }
-#visualConLime .inner .contentBox .con8 .cameraCon span:nth-of-type(1)::before {
-  display: block;
-  content: "";
-  width: 1px;
-  height: 30px;
-  background-color: #fff;
-  position: absolute;
-  right: 10px;
-  bottom: -35px;
-}
 #visualConLime .inner .contentBox .con8 .cameraCon span:nth-of-type(2) {
   left: 20px;
-  top: 80px;
-}
-#visualConLime .inner .contentBox .con8 .cameraCon span:nth-of-type(2)::before {
-  display: block;
-  content: "";
-  width: 50px;
-  height: 1px;
-  background-color: #fff;
-  position: absolute;
-  right: -50px;
-  bottom: 10px;
+  top: 30px;
 }
 #visualConLime .inner .contentBox .con8 .cameraCon span:nth-of-type(3) {
   left: 20px;
-  top: 120px;
-}
-#visualConLime .inner .contentBox .con8 .cameraCon span:nth-of-type(3)::before {
-  display: block;
-  content: "";
-  width: 50px;
-  height: 1px;
-  background-color: #fff;
-  position: absolute;
-  right: -50px;
-  bottom: 10px;
+  top: 70px;
 }
 #visualConLime .inner .contentBox .con8 .cameraCon span:nth-of-type(4) {
   left: 20px;
-  top: 160px;
-}
-#visualConLime .inner .contentBox .con8 .cameraCon span:nth-of-type(4)::before {
-  display: block;
-  content: "";
-  width: 50px;
-  height: 1px;
-  background-color: #fff;
-  position: absolute;
-  right: -50px;
-  bottom: 10px;
+  top: 130px;
 }
 
 #visualConViolet {
@@ -1089,7 +1013,7 @@ header .btns ul .btn:nth-of-type(4) span {
 }
 #visualConViolet .inner .contentBox .con2 span {
   display: block;
-  width: 60%;
+  width: 100%;
   height: 50%;
   background: linear-gradient(#fcd6fd, #b09df7);
   background-clip: text;
@@ -1122,7 +1046,7 @@ header .btns ul .btn:nth-of-type(4) span {
 }
 #visualConViolet .inner .contentBox .con3 span {
   display: block;
-  width: 70%;
+  width: 100%;
   height: 50%;
   background: linear-gradient(#fcd6fd, #b09df7);
   background-clip: text;
@@ -1193,7 +1117,8 @@ header .btns ul .btn:nth-of-type(4) span {
   -webkit-background-clip: text;
   color: transparent;
   font: bold 25px/1.5 "맑은 고딕";
-  padding: 40px;
+  padding: 10px;
+  margin-bottom: 10px;
 }
 #visualConViolet .inner .contentBox .con6 a {
   display: block;
@@ -1212,9 +1137,9 @@ header .btns ul .btn:nth-of-type(4) span {
 }
 #visualConViolet .inner .contentBox .con8 img {
   position: absolute;
-  left: 100px;
-  bottom: -330px;
-  width: 400px;
+  top: 50%;
+  left: 30%;
+  width: 230px;
 }
 #visualConViolet .inner .contentBox .con8 > span {
   display: block;
@@ -1244,57 +1169,17 @@ header .btns ul .btn:nth-of-type(4) span {
   right: 20px;
   top: 10px;
 }
-#visualConViolet .inner .contentBox .con8 .cameraCon span:nth-of-type(1)::before {
-  display: block;
-  content: "";
-  width: 1px;
-  height: 30px;
-  background-color: #fff;
-  position: absolute;
-  right: 10px;
-  bottom: -35px;
-}
 #visualConViolet .inner .contentBox .con8 .cameraCon span:nth-of-type(2) {
   left: 20px;
-  top: 80px;
-}
-#visualConViolet .inner .contentBox .con8 .cameraCon span:nth-of-type(2)::before {
-  display: block;
-  content: "";
-  width: 50px;
-  height: 1px;
-  background-color: #fff;
-  position: absolute;
-  right: -50px;
-  bottom: 10px;
+  top: 30px;
 }
 #visualConViolet .inner .contentBox .con8 .cameraCon span:nth-of-type(3) {
   left: 20px;
-  top: 120px;
-}
-#visualConViolet .inner .contentBox .con8 .cameraCon span:nth-of-type(3)::before {
-  display: block;
-  content: "";
-  width: 50px;
-  height: 1px;
-  background-color: #fff;
-  position: absolute;
-  right: -50px;
-  bottom: 10px;
+  top: 70px;
 }
 #visualConViolet .inner .contentBox .con8 .cameraCon span:nth-of-type(4) {
   left: 20px;
-  top: 160px;
-}
-#visualConViolet .inner .contentBox .con8 .cameraCon span:nth-of-type(4)::before {
-  display: block;
-  content: "";
-  width: 50px;
-  height: 1px;
-  background-color: #fff;
-  position: absolute;
-  right: -50px;
-  bottom: 10px;
+  top: 130px;
 }
 
 #visualConGraphite {
@@ -1369,7 +1254,7 @@ header .btns ul .btn:nth-of-type(4) span {
 }
 #visualConGraphite .inner .contentBox .con2 span {
   display: block;
-  width: 60%;
+  width: 100%;
   height: 50%;
   background: linear-gradient(#d8d8d8, #5b5c5c);
   background-clip: text;
@@ -1402,7 +1287,7 @@ header .btns ul .btn:nth-of-type(4) span {
 }
 #visualConGraphite .inner .contentBox .con3 span {
   display: block;
-  width: 70%;
+  width: 100%;
   height: 50%;
   background: linear-gradient(#d8d8d8, #5b5c5c);
   background-clip: text;
@@ -1474,7 +1359,8 @@ header .btns ul .btn:nth-of-type(4) span {
   -webkit-background-clip: text;
   color: transparent;
   font: bold 25px/1.5 "맑은 고딕";
-  padding: 40px;
+  padding: 10px;
+  margin-bottom: 10px;
 }
 #visualConGraphite .inner .contentBox .con6 a {
   display: block;
@@ -1493,9 +1379,9 @@ header .btns ul .btn:nth-of-type(4) span {
 }
 #visualConGraphite .inner .contentBox .con8 img {
   position: absolute;
-  left: 100px;
-  bottom: -330px;
-  width: 400px;
+  top: 50%;
+  left: 30%;
+  width: 230px;
 }
 #visualConGraphite .inner .contentBox .con8 > span {
   display: block;
@@ -1525,57 +1411,17 @@ header .btns ul .btn:nth-of-type(4) span {
   right: 20px;
   top: 10px;
 }
-#visualConGraphite .inner .contentBox .con8 .cameraCon span:nth-of-type(1)::before {
-  display: block;
-  content: "";
-  width: 1px;
-  height: 30px;
-  background-color: #fff;
-  position: absolute;
-  right: 10px;
-  bottom: -35px;
-}
 #visualConGraphite .inner .contentBox .con8 .cameraCon span:nth-of-type(2) {
   left: 20px;
-  top: 80px;
-}
-#visualConGraphite .inner .contentBox .con8 .cameraCon span:nth-of-type(2)::before {
-  display: block;
-  content: "";
-  width: 50px;
-  height: 1px;
-  background-color: #fff;
-  position: absolute;
-  right: -50px;
-  bottom: 10px;
+  top: 30px;
 }
 #visualConGraphite .inner .contentBox .con8 .cameraCon span:nth-of-type(3) {
   left: 20px;
-  top: 120px;
-}
-#visualConGraphite .inner .contentBox .con8 .cameraCon span:nth-of-type(3)::before {
-  display: block;
-  content: "";
-  width: 50px;
-  height: 1px;
-  background-color: #fff;
-  position: absolute;
-  right: -50px;
-  bottom: 10px;
+  top: 70px;
 }
 #visualConGraphite .inner .contentBox .con8 .cameraCon span:nth-of-type(4) {
   left: 20px;
-  top: 160px;
-}
-#visualConGraphite .inner .contentBox .con8 .cameraCon span:nth-of-type(4)::before {
-  display: block;
-  content: "";
-  width: 50px;
-  height: 1px;
-  background-color: #fff;
-  position: absolute;
-  right: -50px;
-  bottom: 10px;
+  top: 130px;
 }
 
 #visualContent {
@@ -1634,7 +1480,7 @@ header .btns ul .btn:nth-of-type(4) span {
 #visualContent .inner .con7 > span:nth-of-type(1) {
   display: block;
   width: 90%;
-  height: 40px;
+  padding: 20px;
   border-radius: 25px;
   background-color: rgba(0, 0, 0, 0.5);
   text-align: center;
@@ -1642,53 +1488,51 @@ header .btns ul .btn:nth-of-type(4) span {
   left: 50%;
   transform: translateX(-50%);
   top: 40px;
-  font: bold 25px/40px "맑은 고딕";
+  font: bold 25px/1.2 "맑은 고딕";
   color: #fff;
   z-index: 1;
 }
 #visualContent .inner .con7 > span:nth-of-type(2) {
   display: block;
-  width: 50%;
-  height: 30px;
+  width: 65%;
   border-radius: 15px;
   background-color: rgba(0, 0, 0, 0.5);
   margin: 0 auto;
   text-align: center;
   position: absolute;
-  top: 100px;
+  bottom: 50px;
   left: 50%;
   transform: translateX(-50%);
-  font: 16px/30px "맑은 고딕";
+  font: 12px/1.2 "맑은 고딕";
   color: #fff;
   z-index: 1;
 }
 #visualContent .inner .con7 div {
   width: 100%;
-  height: 30px;
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  bottom: 50px;
+  bottom: 100px;
   display: flex;
   justify-content: space-around;
 }
 #visualContent .inner .con7 div span:nth-of-type(1) {
   width: 30%;
-  height: 30px;
   border-radius: 15px;
   background-color: rgba(0, 0, 0, 0.5);
   text-align: center;
-  font: 16px/30px "맑은 고딕";
+  font: 16px/1.5 "맑은 고딕";
   color: #fff;
+  padding: 5px;
 }
 #visualContent .inner .con7 div span:nth-of-type(2) {
   width: 30%;
-  height: 30px;
   border-radius: 15px;
   background-color: rgba(0, 0, 0, 0.5);
   text-align: center;
-  font: 16px/30px "맑은 고딕";
+  font: 16px/1.2 "맑은 고딕";
   color: #fff;
+  padding: 5px;
 }
 
 #contentMore article {
@@ -1734,7 +1578,7 @@ header .btns ul .btn:nth-of-type(4) span {
 #display .morePhoto div {
   border-radius: 20px;
   width: 40%;
-  max-height: 400px;
+  height: 400px;
   overflow: hidden;
 }
 #display .morePhoto div img {
@@ -2121,7 +1965,7 @@ footer .inner .footerCon .sns p i {
   margin: 0 auto;
   display: flex;
   justify-content: space-evenly;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
 }
 #precautions .inner .tab li {
   margin-right: 10px;
@@ -2402,9 +2246,15 @@ footer .inner .footerCon .sns p i {
   }
   #visualContent .inner .contentBox .con6 img {
     position: absolute;
-    width: 100%;
+    width: 120%;
     bottom: 0px;
     transform: translateX(-50%);
+  }
+  #visualContent .inner .contentBox .con7 {
+    grid-row-start: 9;
+    grid-row-end: 11;
+    grid-column-start: 1;
+    grid-column-end: 9;
   }
   #visualContent .inner .contentBox .con8 {
     grid-column-start: 4;
@@ -2412,11 +2262,61 @@ footer .inner .footerCon .sns p i {
     grid-row-start: 7;
     grid-row-end: 9;
   }
-  #visualContent .inner .contentBox .con7 {
-    grid-row-start: 9;
-    grid-row-end: 11;
-    grid-column-start: 1;
-    grid-column-end: 9;
+  #visualContent .inner .contentBox .con8 img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+    height: 400px;
+  }
+  #visualContent .inner .contentBox .con8 .cameraCon span {
+    display: block;
+    font: 12px/1.2 "맑은 고딕";
+    color: #fff;
+    position: absolute;
+    width: 100px;
+    height: 30px;
+  }
+  #visualContent .inner .contentBox .con8 .cameraCon span:nth-of-type(1) {
+    right: 50px;
+    top: 170px;
+  }
+  #visualContent .inner .contentBox .con8 .cameraCon span:nth-of-type(2) {
+    left: 50px;
+    top: 40px;
+  }
+  #visualContent .inner .contentBox .con8 .cameraCon span:nth-of-type(3) {
+    left: 50px;
+    top: 80px;
+  }
+  #visualContent .inner .contentBox .con8 .cameraCon span:nth-of-type(4) {
+    left: 50px;
+    top: 130px;
+  }
+}
+@media screen and (max-width: 450px) {
+  #visualContent .inner .con1 img {
+    width: 70%;
+  }
+  #visualContent .inner .con1 span {
+    font: bold 20px/1 "맑은 고딕";
+  }
+  #visualContent .inner .con4 span {
+    top: 20px;
+    font: bold 20px/1.5 "맑은 고딕";
+  }
+  #visualContent .inner .con4 video {
+    width: 250%;
+  }
+  #visualContent .inner .con7 > span:nth-of-type(1) {
+    font: bold 20px/1.2 "맑은 고딕";
+  }
+  #visualContent .inner .con7 div span:nth-of-type(1) {
+    font: 12px/1.5 "맑은 고딕";
+  }
+  #visualContent .inner .con7 div span:nth-of-type(2) {
+    font: 12px/1.5 "맑은 고딕";
   }
 }
 
