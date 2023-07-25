@@ -2296,27 +2296,78 @@ footer .inner .footerCon .sns p i {
   }
 }
 @media screen and (max-width: 450px) {
-  #visualContent .inner .con1 img {
+  #visualContent .inner .contentBox {
+    margin: 50px 0;
+    display: grid;
+    width: 100%;
+    padding: 20px;
+    grid-template-rows: 300px 200px 300px 300px 300px 300px 300px 300px 300px 300px 300px;
+    grid-template-columns: repeat(8, 1fr);
+  }
+  #visualContent .inner .contentBox .con1 img {
     width: 70%;
   }
-  #visualContent .inner .con1 span {
+  #visualContent .inner .contentBox .con1 span {
     font: bold 20px/1 "맑은 고딕";
   }
-  #visualContent .inner .con4 span {
+  #visualContent .inner .contentBox .con4 span {
     top: 20px;
     font: bold 20px/1.5 "맑은 고딕";
   }
-  #visualContent .inner .con4 video {
+  #visualContent .inner .contentBox .con4 video {
     width: 250%;
   }
-  #visualContent .inner .con7 > span:nth-of-type(1) {
+  #visualContent .inner .contentBox .con6 {
+    grid-column-start: 1;
+    grid-column-end: 9;
+    grid-row-start: 7;
+    grid-row-end: 8;
+  }
+  #visualContent .inner .contentBox .con6 img {
+    position: absolute;
+    width: 60%;
+    bottom: -50px;
+    transform: translateX(-50%);
+  }
+  #visualContent .inner .contentBox .con7 > span:nth-of-type(1) {
     font: bold 20px/1.2 "맑은 고딕";
   }
-  #visualContent .inner .con7 div span:nth-of-type(1) {
+  #visualContent .inner .contentBox .con7 div span:nth-of-type(1) {
     font: 12px/1.5 "맑은 고딕";
   }
-  #visualContent .inner .con7 div span:nth-of-type(2) {
+  #visualContent .inner .contentBox .con7 div span:nth-of-type(2) {
     font: 12px/1.5 "맑은 고딕";
+  }
+  #visualContent .inner .contentBox .con8 {
+    grid-column-start: 1;
+    grid-column-end: 9;
+    grid-row-start: 8;
+    grid-row-end: 9;
+  }
+  #visualContent .inner .contentBox .con8 img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+    height: 400px;
+    opacity: 0.7;
+  }
+  #visualContent .inner .contentBox .con8 .cameraCon span:nth-of-type(1) {
+    right: 20px;
+    top: 10px;
+  }
+  #visualContent .inner .contentBox .con8 .cameraCon span:nth-of-type(2) {
+    left: 20px;
+    top: 30px;
+  }
+  #visualContent .inner .contentBox .con8 .cameraCon span:nth-of-type(3) {
+    left: 20px;
+    top: 70px;
+  }
+  #visualContent .inner .contentBox .con8 .cameraCon span:nth-of-type(4) {
+    left: 20px;
+    top: 130px;
   }
 }
 
