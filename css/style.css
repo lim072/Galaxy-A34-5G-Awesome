@@ -1432,13 +1432,23 @@ header .btns ul .btn:nth-of-type(4) span {
 #visualContent .inner {
   margin: 20px auto;
 }
-#visualContent .inner .con4 {
+#visualContent .inner .contentBox .con1 {
+  transition: opacity 0.5s;
+}
+#visualContent .inner .contentBox .con2 {
+  transition: opacity 0.5s;
+}
+#visualContent .inner .contentBox .con3 {
+  transition: opacity 0.5s;
+}
+#visualContent .inner .contentBox .con4 {
   grid-column-start: 1;
   grid-column-end: 6;
   overflow: hidden;
   position: relative;
+  transition: opacity 0.5s;
 }
-#visualContent .inner .con4 span {
+#visualContent .inner .contentBox .con4 span {
   display: block;
   width: 100%;
   text-align: center;
@@ -1448,7 +1458,7 @@ header .btns ul .btn:nth-of-type(4) span {
   color: #eee;
   z-index: 1;
 }
-#visualContent .inner .con4 a {
+#visualContent .inner .contentBox .con4 a {
   display: block;
   width: 100%;
   text-align: center;
@@ -1458,27 +1468,34 @@ header .btns ul .btn:nth-of-type(4) span {
   color: #eee;
   z-index: 1;
 }
-#visualContent .inner .con4 video {
+#visualContent .inner .contentBox .con4 video {
   width: 135%;
   position: absolute;
   bottom: 0;
   object-fit: fill;
 }
-#visualContent .inner .con7 {
+#visualContent .inner .contentBox .con5 {
+  transition: opacity 0.5s;
+}
+#visualContent .inner .contentBox .con6 {
+  transition: opacity 0.5s;
+}
+#visualContent .inner .contentBox .con7 {
   grid-row-start: 4;
   grid-row-end: 6;
   grid-column-start: 4;
   grid-column-end: 9;
   overflow: hidden;
   position: relative;
+  transition: opacity 0.5s;
 }
-#visualContent .inner .con7 img {
+#visualContent .inner .contentBox .con7 img {
   width: 100%;
   height: 100%;
   background-position: center;
   object-fit: cover;
 }
-#visualContent .inner .con7 > span:nth-of-type(1) {
+#visualContent .inner .contentBox .con7 > span:nth-of-type(1) {
   display: block;
   width: 90%;
   padding: 20px;
@@ -1493,7 +1510,7 @@ header .btns ul .btn:nth-of-type(4) span {
   color: #fff;
   z-index: 1;
 }
-#visualContent .inner .con7 > span:nth-of-type(2) {
+#visualContent .inner .contentBox .con7 > span:nth-of-type(2) {
   display: block;
   width: 65%;
   border-radius: 15px;
@@ -1508,7 +1525,7 @@ header .btns ul .btn:nth-of-type(4) span {
   color: #fff;
   z-index: 1;
 }
-#visualContent .inner .con7 div {
+#visualContent .inner .contentBox .con7 div {
   width: 100%;
   position: absolute;
   left: 50%;
@@ -1517,7 +1534,7 @@ header .btns ul .btn:nth-of-type(4) span {
   display: flex;
   justify-content: space-around;
 }
-#visualContent .inner .con7 div span:nth-of-type(1) {
+#visualContent .inner .contentBox .con7 div span:nth-of-type(1) {
   width: 30%;
   border-radius: 15px;
   background-color: rgba(0, 0, 0, 0.5);
@@ -1526,7 +1543,7 @@ header .btns ul .btn:nth-of-type(4) span {
   color: #fff;
   padding: 5px;
 }
-#visualContent .inner .con7 div span:nth-of-type(2) {
+#visualContent .inner .contentBox .con7 div span:nth-of-type(2) {
   width: 30%;
   border-radius: 15px;
   background-color: rgba(0, 0, 0, 0.5);
@@ -1534,6 +1551,9 @@ header .btns ul .btn:nth-of-type(4) span {
   font: 16px/1.2 "맑은 고딕";
   color: #fff;
   padding: 5px;
+}
+#visualContent .inner .contentBox .con8 {
+  transition: opacity 0.5s;
 }
 
 #contentMore article {
