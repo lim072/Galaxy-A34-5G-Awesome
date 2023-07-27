@@ -115,9 +115,14 @@ header {
   }
 
   .btns {
-    display: none;
+    display: block;
     max-width: 1200px;
     margin: 0 auto;
+    position: relative;
+    top: -1000px;
+    transition: 0.5s;
+    opacity: 0;
+ 
 
     ul {
       display: flex;
@@ -131,6 +136,7 @@ header {
       background-color: rgba($color: #000000, $alpha: 0.4);
       border: 2px solid #bbb;
       float: right;
+     
 
       .btn {
         width: 50px;

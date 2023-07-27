@@ -3,6 +3,7 @@ let header = document.querySelector("header");
 let btns = header.querySelector(".btns");
 // const tablet = window.matchMedia("screen and (max-width : 800px)");
 
+
 let posArr = [];
 
 setPos();
@@ -19,9 +20,11 @@ function setPos() {
 
 window.addEventListener("scroll", () => {
     if (window.pageYOffset < 800 || window.pageYOffset > 2900) {
-        btns.style.display = "none";
+        btns.style.top = "-1000px"
+        btns.style.opacity = "0";
     } else {
-        btns.style.display = "block";
+        btns.style.top = "0"
+        btns.style.opacity = "1";
     }
 
     const con1 = document.querySelectorAll('.con1');
@@ -40,23 +43,25 @@ window.addEventListener("scroll", () => {
     const trigger7 = 1700;
     const con8 = document.querySelectorAll('.con8');
     const trigger8 = 1650;
-    const num = 1;
-    const con = [con1,con2,con3,con4,con5,con6,con7,con8];
 
-    
     const scrollPosition = window.scrollY;
-    console.log(scrollPosition)
-
-
-    for(let index of con){
-        for(let el of index){
-            if(scrollPosition > trigger1){
-                el.style.opacity = 1;
-            }else{
-                el.style.opacity = 0.2;
-            }
-        }
-    }
-
+    
+    opacity(con1, scrollPosition, trigger1);
+    opacity(con2, scrollPosition, trigger2);
+    opacity(con3, scrollPosition, trigger3);
+    opacity(con4, scrollPosition, trigger4);
+    opacity(con5, scrollPosition, trigger5);
+    opacity(con6, scrollPosition, trigger6);
+    opacity(con7, scrollPosition, trigger7);
+    opacity(con8, scrollPosition, trigger8);
 })
 
+function opacity(con, scroll ,trigger){
+for(let el of con){
+    if(scroll > trigger){
+        el.style.opacity = 1;
+    }else{
+        el.style.opacity = 0.2;
+    }
+}
+}

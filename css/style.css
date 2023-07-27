@@ -145,9 +145,13 @@ header .inner .buy div {
   box-shadow: 1px 1px 20px 20px #fff;
 }
 header .btns {
-  display: none;
+  display: block;
   max-width: 1200px;
   margin: 0 auto;
+  position: relative;
+  top: -1000px;
+  transition: 0.5s;
+  opacity: 0;
 }
 header .btns ul {
   display: flex;
@@ -2195,7 +2199,6 @@ footer .inner .footerCon .sns p i {
     transform: translate(-50%, -50%);
   }
   header .btns {
-    display: none;
     max-width: 1200px;
     margin: 0 auto;
   }
@@ -2317,6 +2320,20 @@ footer .inner .footerCon .sns p i {
   }
 }
 @media screen and (max-width: 450px) {
+  header {
+    height: 100px;
+  }
+  header .inner nav {
+    display: none;
+  }
+  header .inner .buy {
+    top: 70px;
+    width: 250px;
+    height: 30px;
+  }
+  header .inner .buy a {
+    font: bold 15px/30px "맑은 고딕";
+  }
   #visualContent .inner .contentBox {
     margin: 50px 0;
     display: grid;
@@ -2389,6 +2406,9 @@ footer .inner .footerCon .sns p i {
   #visualContent .inner .contentBox .con8 .cameraCon span:nth-of-type(4) {
     left: 20px;
     top: 130px;
+  }
+  #contentMore article {
+    height: 150vh;
   }
 }
 

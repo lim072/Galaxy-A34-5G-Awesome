@@ -1,5 +1,24 @@
 @media screen and (max-width : "450px") {
-    #visualContent {
+  header {
+    height: 100px;
+
+    .inner {
+  
+      nav {
+        display: none;
+      }
+      .buy {
+        top: 70px;
+        width: 250px;
+        height: 30px;
+
+        a {
+          font: bold 15px/30px "맑은 고딕";
+        }
+      }
+  }
+}
+  #visualContent {
         .inner {
             .contentBox {
                 margin: 50px 0;
@@ -119,5 +138,10 @@
             }}
         
     }
+}
+#contentMore{
+  article{
+    height: 150vh;
+  }
 }
 }
