@@ -3,7 +3,17 @@
     height: 100px;
 
     .inner {
-  
+      h1 {
+        height: 0%;
+        margin-left: 50%;
+        margin-top: 10px;
+        transform: translate(-50%,-50%);
+        a {
+            img {
+                margin-left: 20px;
+            }
+        }
+      }
       nav {
         display: none;
       }

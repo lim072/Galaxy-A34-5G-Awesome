@@ -2323,6 +2323,15 @@ footer .inner .footerCon .sns p i {
   header {
     height: 100px;
   }
+  header .inner h1 {
+    height: 0%;
+    margin-left: 50%;
+    margin-top: 10px;
+    transform: translate(-50%, -50%);
+  }
+  header .inner h1 a img {
+    margin-left: 20px;
+  }
   header .inner nav {
     display: none;
   }

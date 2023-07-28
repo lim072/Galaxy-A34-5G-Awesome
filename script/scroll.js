@@ -62,10 +62,10 @@ window.addEventListener("scroll", () => {
         opacity(con2, scrollPosition, trigger2+400);
         opacity(con3, scrollPosition, trigger3+400);
         opacity(con4, scrollPosition, trigger4+400);
-        opacity(con5, scrollPosition, trigger5+700);
-        opacity(con6, scrollPosition, trigger6+700);
+        opacity(con5, scrollPosition, trigger5+800);
+        opacity(con6, scrollPosition, trigger6+800);
         opacity(con7, scrollPosition, trigger7+1500);
-        opacity(con8, scrollPosition, trigger8+800);
+        opacity(con8, scrollPosition, trigger8+900);
     }
 })
 
