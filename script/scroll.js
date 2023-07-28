@@ -18,6 +18,7 @@ function setPos() {
 //[0, 968, 3198, 8038, 12700, 13628]
 
 
+
 window.addEventListener("scroll", () => {
     if (window.pageYOffset < 800 || window.pageYOffset > 2900) {
         btns.style.top = "-1000px"
@@ -27,6 +28,7 @@ window.addEventListener("scroll", () => {
         btns.style.opacity = "1";
     }
 
+    const windowWidth = window.innerWidth;
     const con1 = document.querySelectorAll('.con1');
     const trigger1 = 1100;
     const con2 = document.querySelectorAll('.con2');
@@ -46,6 +48,7 @@ window.addEventListener("scroll", () => {
 
     const scrollPosition = window.scrollY;
     
+    if (windowWidth > 800) {
     opacity(con1, scrollPosition, trigger1);
     opacity(con2, scrollPosition, trigger2);
     opacity(con3, scrollPosition, trigger3);
@@ -54,14 +57,27 @@ window.addEventListener("scroll", () => {
     opacity(con6, scrollPosition, trigger6);
     opacity(con7, scrollPosition, trigger7);
     opacity(con8, scrollPosition, trigger8);
+    }else{
+        opacity(con1, scrollPosition, trigger1);
+        opacity(con2, scrollPosition, trigger2+400);
+        opacity(con3, scrollPosition, trigger3+400);
+        opacity(con4, scrollPosition, trigger4+400);
+        opacity(con5, scrollPosition, trigger5+700);
+        opacity(con6, scrollPosition, trigger6+700);
+        opacity(con7, scrollPosition, trigger7+1500);
+        opacity(con8, scrollPosition, trigger8+800);
+    }
 })
 
+
+
+
 function opacity(con, scroll ,trigger){
-for(let el of con){
-    if(scroll > trigger){
-        el.style.opacity = 1;
-    }else{
-        el.style.opacity = 0.2;
+    for(let el of con){
+        if(scroll > trigger){
+            el.style.opacity = 1;
+        }else{
+            el.style.opacity = 0.1;
+        }
     }
-}
 }

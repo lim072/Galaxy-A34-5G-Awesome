@@ -1437,20 +1437,20 @@ header .btns ul .btn:nth-of-type(4) span {
   margin: 20px auto;
 }
 #visualContent .inner .contentBox .con1 {
-  transition: opacity 0.5s;
+  transition: opacity 1s;
 }
 #visualContent .inner .contentBox .con2 {
-  transition: opacity 0.5s;
+  transition: opacity 1s;
 }
 #visualContent .inner .contentBox .con3 {
-  transition: opacity 0.5s;
+  transition: opacity 1s;
 }
 #visualContent .inner .contentBox .con4 {
   grid-column-start: 1;
   grid-column-end: 6;
   overflow: hidden;
   position: relative;
-  transition: opacity 0.5s;
+  transition: opacity 1s;
 }
 #visualContent .inner .contentBox .con4 span {
   display: block;
@@ -1479,10 +1479,10 @@ header .btns ul .btn:nth-of-type(4) span {
   object-fit: fill;
 }
 #visualContent .inner .contentBox .con5 {
-  transition: opacity 0.5s;
+  transition: opacity 1s;
 }
 #visualContent .inner .contentBox .con6 {
-  transition: opacity 0.5s;
+  transition: opacity 1s;
 }
 #visualContent .inner .contentBox .con7 {
   grid-row-start: 4;
@@ -1491,7 +1491,7 @@ header .btns ul .btn:nth-of-type(4) span {
   grid-column-end: 9;
   overflow: hidden;
   position: relative;
-  transition: opacity 0.5s;
+  transition: opacity 1s;
 }
 #visualContent .inner .contentBox .con7 img {
   width: 100%;
@@ -1557,7 +1557,7 @@ header .btns ul .btn:nth-of-type(4) span {
   padding: 5px;
 }
 #visualContent .inner .contentBox .con8 {
-  transition: opacity 0.5s;
+  transition: opacity 1s;
 }
 
 #contentMore article {

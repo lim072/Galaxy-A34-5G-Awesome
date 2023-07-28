@@ -7,20 +7,20 @@
         
         .contentBox{
             .con1{
-                transition: opacity 0.5s;
+                transition: opacity 1s;
             }
             .con2{
-                transition: opacity 0.5s;
+                transition: opacity 1s;
             }
             .con3{
-                transition: opacity 0.5s;
+                transition: opacity 1s;
             }
         .con4 {
             grid-column-start: 1;
             grid-column-end: 6;
             overflow: hidden;
             position: relative;
-            transition: opacity 0.5s;
+            transition: opacity 1s;
             
             span {
                 display: block;
@@ -53,10 +53,10 @@
             }
         }
         .con5{
-            transition: opacity 0.5s;
+            transition: opacity 1s;
         }
         .con6{
-            transition: opacity 0.5s;
+            transition: opacity 1s;
         }
 
         .con7 {
@@ -66,7 +66,7 @@
             grid-column-end: 9;
             overflow: hidden;
             position: relative;
-            transition: opacity 0.5s;
+            transition: opacity 1s;
 
             img {
                 width: 100%;
@@ -147,7 +147,7 @@
             }
         }
         .con8{
-            transition: opacity 0.5s;
+            transition: opacity 1s;
         }
     }
      
