@@ -20,13 +20,9 @@ function setPos() {
 
 
 window.addEventListener("scroll", () => {
-    if (window.pageYOffset < 800 || window.pageYOffset > 2900) {
-        btns.style.top = "-1000px"
-        btns.style.opacity = "0";
-    } else {
-        btns.style.top = "0"
-        btns.style.opacity = "1";
-    }
+
+    
+    
 
     const windowWidth = window.innerWidth;
     const con1 = document.querySelectorAll('.con1');
@@ -49,15 +45,32 @@ window.addEventListener("scroll", () => {
     const scrollPosition = window.scrollY;
     
     if (windowWidth > 800) {
-    opacity(con1, scrollPosition, trigger1);
-    opacity(con2, scrollPosition, trigger2);
-    opacity(con3, scrollPosition, trigger3);
-    opacity(con4, scrollPosition, trigger4);
-    opacity(con5, scrollPosition, trigger5);
-    opacity(con6, scrollPosition, trigger6);
-    opacity(con7, scrollPosition, trigger7);
-    opacity(con8, scrollPosition, trigger8);
+
+        if (window.pageYOffset < 800 || window.pageYOffset > 2900) {
+            btns.style.top = "-1000px"
+            btns.style.opacity = "0";
+        } else {
+            btns.style.top = "0"
+            btns.style.opacity = "1";
+        }
+
+        opacity(con1, scrollPosition, trigger1);
+        opacity(con2, scrollPosition, trigger2);
+        opacity(con3, scrollPosition, trigger3);
+        opacity(con4, scrollPosition, trigger4);
+        opacity(con5, scrollPosition, trigger5);
+        opacity(con6, scrollPosition, trigger6);
+        opacity(con7, scrollPosition, trigger7);
+        opacity(con8, scrollPosition, trigger8);
     }else{
+
+        if (window.pageYOffset < 800 || window.pageYOffset > 3800) {
+            btns.style.top = "-1000px"
+            btns.style.opacity = "0";
+        } else {
+            btns.style.top = "0"
+            btns.style.opacity = "1";
+        }
         opacity(con1, scrollPosition, trigger1);
         opacity(con2, scrollPosition, trigger2+400);
         opacity(con3, scrollPosition, trigger3+400);
