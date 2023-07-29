@@ -144,6 +144,9 @@ header .inner .buy div {
   transition: 0.5s;
   box-shadow: 1px 1px 20px 20px #fff;
 }
+header .inner .mobileMenu {
+  display: none;
+}
 header .btns {
   display: block;
   max-width: 1200px;
@@ -2351,9 +2354,58 @@ footer .inner .footerCon .sns p i {
     top: 70px;
     width: 250px;
     height: 30px;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
   header .inner .buy a {
     font: bold 15px/30px "맑은 고딕";
+  }
+  header .inner .mobileMenu {
+    display: block;
+  }
+  header .inner .mobileMenu .mobileBtn {
+    display: block;
+    width: 40px;
+    height: 3px;
+    background-color: #fff;
+    position: absolute;
+    top: 40px;
+    left: 20px;
+    cursor: pointer;
+    border-radius: 3px;
+  }
+  header .inner .mobileMenu .mobileBtn::after, header .inner .mobileMenu .mobileBtn::before {
+    display: block;
+    content: "";
+    width: 40px;
+    height: 3px;
+    background-color: #fff;
+    position: absolute;
+    border-radius: 3px;
+  }
+  header .inner .mobileMenu .mobileBtn::after {
+    top: -10px;
+  }
+  header .inner .mobileMenu .mobileBtn::before {
+    top: 10px;
+  }
+  header .inner .mobileMenu .mobileGnb {
+    position: absolute;
+    top: 100px;
+    width: 35%;
+    height: 250px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 0px 0px 50px 0;
+    left: -500px;
+    transition: 0.5s;
+  }
+  header .inner .mobileMenu .mobileGnb li a {
+    color: #fff;
+    font: bold 15px/40px "맑은 고딕";
   }
   #visualContent .inner .contentBox {
     margin: 50px 0;
